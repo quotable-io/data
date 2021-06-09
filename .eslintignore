@@ -1,0 +1,8 @@
+/.vscode
+/.git
+/data
+/docs
+/private
+__tests__
+node_modules
+**/*.spec.js

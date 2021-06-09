@@ -1,0 +1,31 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
+  "env": {
+    "node": true,
+    "browser": false
+  },
+  "rules": {
+    // "no-unused-vars": "warn",
+    "consistent-return": 0,
+    "radix": 0,
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "no-restricted-syntax": 0,
+    "no-await-in-loop": 0,
+    "array-callback-return": 0
+  },
+  "globals": {
+    "Promise": true,
+    "describe": true,
+    "test": true,
+    "it": true,
+    "beforeEach": true,
+    "beforeAll": true,
+    "afterEach": true,
+    "afterAll": true,
+    "expect": true
+  }
+}

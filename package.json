@@ -1,0 +1,77 @@
+{
+  "name": "quotable-data",
+  "version": "0.3.0",
+  "description": "The source data for the quotable API",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "node ./scripts/build"
+  },
+  "bin": {
+    "addQuotes": "scripts/addQuotes/index.js",
+    "addAuthors": "scripts/addAuthors/index.js",
+    "addTags": "scripts/addTags/index.js",
+    "validate": "scripts/validate/index.js"
+  },
+  "main": "data/generated/index.js",
+  "files": [
+    "data/generated/*.js",
+    "data/generated/*.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quotable-io/data.git"
+  },
+  "author": "Luke Peavey <lwpeavey@gmail.com> (http://lukepeavey.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quotable-io/data/issues"
+  },
+  "homepage": "https://github.com/quotable-io/data/",
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^25.5.4",
+    "jest-json-schema": "^5.0.0"
+  },
+  "dependencies": {
+    "@inquirer/select": "*",
+    "@lukepeavey/slugify": "^0.1.3",
+    "@lukepeavey/stopwords": "^0.1.0",
+    "@stoplight/json": "^3.11.2",
+    "ajv": "^6.12.6",
+    "chalk": "^4.1.0",
+    "cheerio": "*",
+    "cli-progress": "^3.9.0",
+    "cli-table3": "^0.6.0",
+    "faker": "^4.1.0",
+    "figures": "^3.2.0",
+    "html-entities": "^2.3.2",
+    "inquirer": "^7.3.3",
+    "is-interactive": "^1.0.0",
+    "json-source-map": "^0.6.1",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.7",
+    "mongoose": "^5.12.10",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.2.0",
+    "ora": "^4.1.1",
+    "pluralize": "^8.0.0",
+    "prettier": "^2.2.1",
+    "query-string": "^6.14.1",
+    "sharp": "^0.27.2",
+    "shelljs": "^0.8.4",
+    "shortid": "^2.2.16",
+    "slugify": "^1.5.0",
+    "word-wrap": "^1.2.3"
+  },
+  "jest": {
+    "watchman": false
+  }
+}
