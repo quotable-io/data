@@ -36,12 +36,6 @@ function parseArgs() {
  * Process the raw input data (an array of quotes) and return an object
  * containing the documents that will be added to each database collection.
  *
- * - Duplicate quotes will **not** be added.
- * - Any authors that are not already in the database will be created. When
- *   creating new authors, we use the wiki API to get the values for fields
- *   like `description`, `bio`, and `link`.
- * - Any tags that are not already in the database will be created
- *
  * @param {{content: string, author: string, tags?: string[]}[]} rawInputData
  * @param {{quotes: any[], authors: any[]}} db The existing database collections
  */
@@ -52,8 +46,8 @@ async function processInputData(rawInputData, db) {
   // Create a map of all authors in the input data.
   const allAuthors = {}
   for (const inputAuthorName of inputAuthorNames) {
-    // NOTE: In some cases, createAuthor will prompt the user to select the
-    // correct author from a list of possible matches. it has to be called
+    // NOTE: In some cases, `createAuthor` will prompt the user to select the
+    // correct author from a list of possible matches. this has to be called
     // synchronously for each author to allow the CLI prompts to be handled
     // one at a time.
     allAuthors[inputAuthorName] = await createAuthor(inputAuthorName)

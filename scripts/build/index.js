@@ -2,6 +2,8 @@
 
 const minimist = require('minimist')
 const path = require('path')
+const shell = require('shelljs')
+const moment = require('moment')
 const { dataDir } = require('../../config')
 const { isEqual } = require('../../lib/isEqual')
 const { log } = require('../../lib/log')
@@ -10,7 +12,7 @@ const { run } = require('../../lib/run')
 const { transforms } = require('./transforms')
 const { writeJSONFiles } = require('../../lib/writeJSONFiles')
 
-const DATE = new Date()
+const DATE = moment().format('YYYY-MM-DD')
 const { entries } = Object
 
 /** Parses and validates CLI arguments */
@@ -32,7 +34,20 @@ function getTimeStamps(db, COLLECTION, object) {
 }
 
 run(async () => {
-  log.info('Generating data files')
+  // Run validation script on source data to make sure it matches schema before
+  // updating generated data files.
+  log.info('Validating source data')
+  const validate = `node ${path.resolve('scripts/validate')} source`
+  const validationResult = shell.exec(validate, { silent: true })
+  if (validationResult.code) {
+    log.newLine()
+    log.error('Data validation failed')
+    log('For more info, run `node scripts/validate source`')
+    process.exit(1)
+  }
+  // If validation passed, build new generated data files from source data
+  log.newLine()
+  log.info('Building data files')
   const { SRC, DEST } = parseArgs()
   // The source data.
   // @type { quotes: Quote[], authors: Author[], tags: Tag[] }
@@ -55,5 +70,5 @@ run(async () => {
     return { ...result, [COLLECTION]: objectsWithTimeStamp }
   }, {})
   // Save the updated JSON to files in the `dist` directory.
-  await writeJSONFiles(DEST, data)
+  writeJSONFiles(DEST, data)
 })

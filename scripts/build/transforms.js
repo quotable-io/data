@@ -1,4 +1,5 @@
 const identity = require('lodash/identity')
+const { cyan } = require('chalk')
 const slugify = require('@lukepeavey/slugify')
 const { findQuotesByTag } = require('../../lib/findQuotesByTag')
 const { log } = require('../../lib/log')

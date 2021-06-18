@@ -1,18 +1,18 @@
 # $ addAuthors
 
-Adds one or more authors to the `authors` collection. 
+Adds one or more authors to the `authors` collection.
 
-> You do not need to use this script when adding new quotes. The [`addQuotes`](../addQuotes/README.md) script will automatically create any new authors and tags from the list of quotes and add them to their respective collections. 
+> You do not need to use this script when adding new quotes. The [`addQuotes`](../addQuotes/README.md) script will automatically create any new authors and tags from the list of quotes and add them to their respective collections.
 
 ## Arguments
 
-| name             | default              | description                                                       |
-| :--------------- | -------------------- | ----------------------------------------------------------------- |
-| `<inputFile>`    | `input/authors.json` | The path to the input file (relative to project root)             |
+| name            | default              | description                                                       |
+| :-------------- | -------------------- | ----------------------------------------------------------------- |
+| `<inputFile>`   | `input/authors.json` | The path to the input file (relative to project root)             |
 | `--name, -n`    | NA                   | List of author names to add. Can be used instead of an input file |
 | `--verbose, -v` | false                | Output details about each author that was added                   |
 | `--dryRun, -d`  | false                | Will not save changes                                             |
-| `--dataDir`      | `data/source`        | Only for testing purposes. Use default value                      |
+| `--dataDir`     | `data/source`        | Only for testing purposes. Use default value                      |
 
 ## Usage
 
@@ -36,7 +36,7 @@ Instead of creating an input file, you specify a list of author names via the `-
 
 ## Input File
 
-The input file should be a `JSON` file containing an array of `AuthorInput` objects. Each object defines an author to add. The only _required_ property for each author is `name`. All other fields will be filled in automatically using the wiki API. However, any properties that are included in the input data will take priority over the values pulled from the wiki API. 
+The input file should be a `JSON` file containing an array of `AuthorInput` objects. Each object defines an author to add. The only _required_ property for each author is `name`. All other fields will be filled in automatically using the wiki API. However, any properties that are included in the input data will take priority over the values pulled from the wiki API.
 
 ~~This can be used as an escape hatch if you need to add an author who does not have a wikipedia page.~~
 
