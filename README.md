@@ -2,7 +2,9 @@
 
 This repository serves as a content management system for the [quotable API](https://github.com/lukePeavey/quotable). The data is stored as JSON files which are synced with a MongoDB database.
 
-If you are interested in contributing to the data, please read the [contributors guide](CONTRIBUTING.md).
+# Contributing 
+
+If you are interesting in contributing to data, please check out the [contributors guide](CONTRIBUTING.md).
 
 ## Structure
 
@@ -11,8 +13,8 @@ If you are interested in contributing to the data, please read the [contributors
 - `/schema` schema for data validation
 - `/config` global config values
 - `/scripts` CLI scripts for managing the data
-- `/lib` Helper functions for managing the data
-- `/input` Various scripts pull data from user provided input files, such as `addQuotes` and `addAuthors`. This is the default directory for input files used by these scripts. It is ignored by git
+- `/lib` Helper functions that are used by the CLI scripts
+- `/input` Some of the CLI scripts accept input data from a temporary JSON file (such as `addQuotes` and `addAuthors`). This is the default directory for input files. It is ignored by git. 
 
 ## CLI Scripts
 

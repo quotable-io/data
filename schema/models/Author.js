@@ -24,7 +24,7 @@ const computedProperties = {
  * data does not include computed properties.
  */
 const AuthorSource = {
-  name: 'Author',
+  title: 'Author',
   type: 'object',
   properties,
   required: Object.keys(properties),
@@ -38,7 +38,7 @@ const AuthorSource = {
  * properties that not included in the source data.
  */
 const Author = {
-  name: 'Author',
+  title: 'Author',
   type: 'object',
   properties: { ...properties, ...computedProperties },
   required: [...Object.keys(properties), ...Object.keys(computedProperties)],

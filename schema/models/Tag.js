@@ -18,7 +18,7 @@ const computedProperties = {
  * data does not include computed properties.
  */
 const TagSource = {
-  name: 'Tag',
+  title: 'Tag',
   type: 'object',
   properties,
   required: Object.keys(properties),
@@ -32,7 +32,7 @@ const TagSource = {
  * properties that not included in the source data.
  */
 const Tag = {
-  name: 'Tag',
+  title: 'Tag',
   type: 'object',
   properties: { ...properties, ...computedProperties },
   required: [...Object.keys(properties), ...Object.keys(computedProperties)],

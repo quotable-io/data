@@ -4,7 +4,7 @@ const { properties } = require('../../schema/models/Quote')
 
 // Schema for the input data
 const validateInput = ajv.compile({
-  name: 'addQuotes inputs',
+  title: 'addQuotes inputs',
   type: 'array',
   items: {
     type: 'object',

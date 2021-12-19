@@ -27,7 +27,7 @@ function parseArgs() {
   const args = minimist(process.argv.slice(2))
   const DEBUG = args.b || args.debug
   const VERBOSE = args.v || args.verbose
-  const TARGET = args._[0] || 'generated'
+  const TARGET = args._[0] || 'source'
   if (!/^(source|generated)$/.test(TARGET)) {
     throw new Error(Errors.invalidTarget)
   }
@@ -70,9 +70,9 @@ function getDataFiles(TARGET) {
  * @return {{line: number, column: number}} location of the error
  */
 function getErrorLocation(error, index, pointers) {
-  const { dataPath, params } = error
+  const { instancePath, params } = error
   const { additionalProperty } = params
-  const property = String(additionalProperty || dataPath).replace(/\./g, '')
+  const property = String(additionalProperty || instancePath).replace(/^\//, '')
   const pointer = pointers[property ? `/${index}/${property}` : `/${index}`]
   const { line, column } = pointer.value
   return { line: line + 1, column }
@@ -83,10 +83,10 @@ function getErrorLocation(error, index, pointers) {
  * @return {string} The message to be displayed for a given validation error
  */
 function getMessage(error) {
-  const { dataPath, params } = error
+  const { instancePath, params } = error
   const { additionalProperty } = params
   let { message } = error
-  if (dataPath) message = `'${dataPath.slice(1)}' ${message}`
+  if (instancePath) message = `'${instancePath.slice(1)}' ${message}`
   if (additionalProperty) message = `${message}: '${additionalProperty}'`
   // Add syntax highlighting for strings contained within the error message.
   // This will highlight property names
@@ -104,7 +104,7 @@ function validateCollection(PATH, validate, verbose) {
     const isValid = validate(object)
     if (!isValid) {
       if (errorCount > 0) log[verbose ? 'divider' : 'newLine']()
-      log.error(`Invalid ${schema.name}`)
+      log.error(`Invalid ${schema.title}`)
       // If `VERBOSE` is true, also output the object where error occurred.
       if (verbose) log(mapValues(object, value => truncate(value)))
       // Out details for each validation error on this object

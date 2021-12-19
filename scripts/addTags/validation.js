@@ -2,7 +2,7 @@ const { ajv } = require('../../lib/ajv')
 
 // Schema for the input data
 const validateInput = ajv.compile({
-  name: 'addTags input',
+  title: 'addTags input',
   type: 'array',
   items: {
     type: 'object',

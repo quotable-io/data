@@ -1,30 +1,113 @@
 # Contributing
 
-## Issues
+- [Content Guidelines](#content-guidelines)
+- [Issue Contributions](#issue-contributions)
+- [Direct Contributions (pull requests)](#direct-contributions-pull-requests)
 
-Feel free to create an issue to suggest content changes, or if you have questions about how to contribute directly.
+## Content Guidelines
 
-- suggest new quotes
-- Report spelling/grammar/accuracy mistakes that should be corrected.
-- Report quotes that have been attributed to the wrong person
-- Report quotes that are offensive/inappropriate or poor quality.
+- Quotes should be good quality: accurate, interesting, and fun to read. 
+- Quotes should not contain any offensive language  
+- All authors must have a wikipedia page (we use the wiki API for creating Author entries)
 
-## Pull Requests
+## Issue Contributions 
 
+The easiest way to contribute is by opening an issue to propose changes. 
+
+### Suggesting new quotes
+
+You can open an issue to suggest new quotes. 
+
+Please proof reed quotes for spelling and grammar
+
+**You do not need to check if a quote is already in the collection.** Duplicates will be skipped automatically when importing new quotes.
+
+#### Format for new quotes
+
+Please format the list of quotes as a JSON array.  Each quote should have the following properties. 
+
+```ts
+{
+  // The quotation text
+  content: string,
+  // The author's full name
+  author: string,
+  // Array of tags
+  tags: string[]
+}
+```
+
+**Example**
+
+```json
+[
+  {
+    "content": "A house divided against itself cannot stand.",
+    "author": "Abraham Lincoln",
+    "tags": ["history", "politics", "famous-quotes"]
+  },
+  {
+    "content": "Any sufficiently advanced technology is indistinguishable from magic",
+    "author": "Arthur C. Clarke",
+    "tags": ["technology", "literature", "famous-quotes"]
+  }
+]
+```
+
+### Editing existing content
+
+You can open to an issue to suggest changes to existing content, for example to fix spelling, grammar, or accuracy, etc.
+
+Please include the `id` or `slug` of each object that needs to be fixed, along with the corrections. 
+
+### Removing quotes
+
+If you find any quotes that are inaccurate, offensive, or poor quality, please open an issue.
+## Direct Contributions (pull requests)
+
+If you would like to contribute directly, pull requests are welcome too.   
 ### Setup
 
 Fork and clone the repository. Install dependencies.
 
-There are two sets of data files. **All changes should be made to the source data (`data/source`)**.
+Important: There are two sets of data files in the repository. All changes should also be made to the source data, not the generated data. 
 
-- `data/source` - source data
+- `data/source` - The source data
 - `data/generated` - generated automatically by running the `build` command.
+
+### CLI Scripts 
+
+There are several CLI scripts for managing the data.  
+
+- [`addQuotes`](./scripts/addQuotes/README.md)
+- [`addAuthors`](./scripts/addAuthors/README.md)
+- [`addTags`](./scripts/addTags/README.md)
+- [`validate`](./scripts/validate/README.md)
+- [`build`](./scripts/build/README.md)
+
+### Submitting PR 
+
+Before submitting a PR, run the `npm build` command to update the generated data files. 
+```
+$ npm build
+```
+
+If the build script fails due to a data validation error, see [data validation](#data-validation) 
+
+### Data validation
+
+The data is validated against a JSON schema using [ajv](https://ajv.js.org/). You can use [`scripts/validate`](./scripts/validate/README.md) to check the data files for validation errors. It will provide detailed output about any errors that need to be fixed. 
+
+```SHELL
+❯ node scripts/validate
+```
+
 
 ### Adding new content
 
 **Do not manually add new content to the data files**
 
-The `addQuotes` script is the primary mechanism for adding new content (quotes, authors, and tags). It takes an array of quotes from an input file, filters out the duplicates, then adds the new quotes to the `quotes.json` collection. It also identifies any authors and tags that do not already exist, creates the necessary objects and adds them to their respective collections. It uses the wiki API to get `Author` details like `bio`, `description`, `link` etc.
+The `addQuotes` script is the primary mechanism for adding new content (quotes, authors, and tags). It takes an array of quotes from an input file, fitters out any quotes duplicates, then adds the new quotes to `quotes.json` collection. It also checks for any authors and tags that do not already exist, creates the necessary objects and adds them to their respective collections. It uses the wiki API to get `Author` details like `bio`, `description`, `link` etc.
 
 See [`scripts/addQuotes`](./scripts/addQuotes/README.md) for details.
 
@@ -32,30 +115,17 @@ See [`scripts/addQuotes`](./scripts/addQuotes/README.md) for details.
 ❯ node scripts/addQuotes input/quotes.json
 ```
 
-### Editing quotes
+### Editing existing content
 
-To edit the `content` of existing quotes for grammar/spelling/accuracy, manually edit the [`quotes.json`](./data/source/quotes.json) file in `data/source/`.
+To edit existing content for spelling, grammar, and accuracy you can edit the JSON files directly and then submit a PR. Make sure to edit the source data (in `data/source/`). 
 
-Do not edit other properties in `quotes.json`, such as `author`. If a quote is attributed to the wrong person, create a issue.
+You can also add/remove tags on existing quotes by editing quotes.json file (at the moment this is the only way to edit tags on existing quotes). 
 
-### Editing Authors
+**The following properties can be edited manually in the JSON files** 
 
-You can manually edit the `bio` and `description` fields on authors in `authors.json` to fix mistakes or improve quality.
-
-### Data validation
-
-The data is validated against a JSON schema using [ajv](https://ajv.js.org/). See [scripts/validate](./scripts/validate/README.md) for more info.
-
-```SHELL
-❯ node scripts/validate
-```
-
-### Submitting a PR
-
-After making changes, run the `build` command before submitting a PR. This updates the generated data files in `data/generated`.
-
-```SHELL
-❯ npm run build
-```
-
-If you get an error that says data validation failed, run [scripts/validate](./scripts/validate/README.md) to see details about the validation errors that need to be corrected.
+- `data/source/quotes.json`
+  - content
+  - tags
+- `data/source/authors.json`
+  - bio
+  - description

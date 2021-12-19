@@ -3,15 +3,19 @@
 const path = require('path')
 const minimist = require('minimist')
 const trim = require('lodash/trim')
+const uniq = require('lodash/uniq')
+const remove = require('lodash/remove')
+const shortid = require('shortid')
 const { writeJSONFiles } = require('../../lib/writeJSONFiles')
 const { parseDataFiles } = require('../../lib/parseDataFiles')
 const { log } = require('../../lib/log')
 const { parseFile } = require('../../lib/parseFile')
 const { run } = require('../../lib/run')
-const { createAuthor } = require('../../lib/createAuthor')
+const { logResults } = require('./logResults')
+const { select } = require('../../lib/selectInput')
 const { validateInput } = require('./validation')
 const { dataDir } = require('../../config')
-const { logResults } = require('./logResults')
+const { wiki } = require('../../lib/wiki')
 
 /**
  * Parses the CLI arguments
@@ -37,26 +41,54 @@ run(async () => {
   const db = parseDataFiles(DATA_DIR)
 
   // Get the input data (from an input file or the `--name` argument)
-  const inputData = parseNameInput(NAME) || parseFile(INPUT_FILE)
+  const inputData = uniq(parseNameInput(NAME) || parseFile(INPUT_FILE))
 
   if (!validateInput(inputData)) {
     validateInput.errors.forEach(error => log.error(error))
     throw new Error('Input data does not match schema')
   }
 
-  // Map the input data to an array of complete `Author` objects. We use the
-  // wiki API to get the values for any author fields that are not defined in
-  // the input data (ie `bio`, `description`, `link`).
-  const authorEntries = []
-  for (const input of inputData) {
-    // The `createAuthor` function uses the wiki API and attempts to find the
-    // matching page based on the given author name. 99% percent of the time
-    authorEntries.push(await createAuthor(input))
-  }
+  // Map each author name found in the input data to an array of matching
+  // wikipedia pages.
+  // const newAuthors = []
+  const skipped = { noWikipediaPage: [], duplicate: [] }
+  const newAuthors = await Promise.all(
+    inputData.map(async (input, index) => {
+      // Find the wikipedia entry for this author
+      await wiki.rateLimit(index, inputData.length)
+      const results = await wiki.findAuthorByName(input.name)
+      let [authorWiki] = results
+      // If there are multiple results that match the given author name, the
+      // script will prompt the user to select the intended person from the
+      // list of results.
+      if (results.length > 1) {
+        authorWiki = await select({
+          message: `Select the wikipedia page for author: ${input.name}`,
+          options: results,
+        })
+      }
+      // If the author does not have a wikipedia page, they will not be added
+      if (!authorWiki) {
+        return input
+      }
+      // Create an `Author` object using data from the wiki API and user input
+      return {
+        _id: shortid(),
+        name: authorWiki.name,
+        bio: input.bio || authorWiki.bio,
+        description: input.description || authorWiki.description,
+        link: authorWiki.link,
+      }
+    })
+  )
+
+  // Filter out authors that did not have a wikipedia page
+  skipped.noWikipediaPage = remove(newAuthors, author => !author._id)
+
   // Filter out authors that are already in the collection.
-  const newAuthors = authorEntries.filter(author => {
-    return db.authors.every(({ name, link }) => {
-      return link !== author.link && name !== author.name
+  skipped.duplicate = remove(newAuthors, author => {
+    return db.authors.some(({ name, link }) => {
+      return link === author.link || name === author.name
     })
   })
 
@@ -66,5 +98,5 @@ run(async () => {
     writeJSONFiles(DATA_DIR, { authors })
   }
   // Output the results to the console
-  logResults(inputData, newAuthors, VERBOSE, DRY_RUN)
+  logResults(newAuthors, skipped, VERBOSE, DRY_RUN)
 })

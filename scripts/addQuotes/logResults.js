@@ -1,26 +1,29 @@
+const lowerCase = require('lodash/lowerCase')
 const pluralize = require('pluralize')
 const { log } = require('../../lib/log')
+const { entries } = require('../../lib/object')
 const { logJSONTable } = require('../../lib/logJSONTable')
 
-function logResults(inputData, rawInputData, verbose, dryRun) {
-  const skipped = rawInputData.length - inputData.quotes.length
-  const counts = {
-    quote: inputData.quotes.length,
-    author: inputData.authors.length,
-    tag: inputData.tags.length,
-  }
-  if (skipped) {
-    log.newLine()
-    log.warn(`Skipped ${skipped} duplicate ${pluralize('quote', skipped)}`)
-  }
+function logResults(added, skipped, verbose, dryRun) {
+  // Output info about the quotes that were skipped
+  entries(skipped).forEach(([key, documents]) => {
+    const count = documents.length
+    const reason = lowerCase(key)
+    if (count) {
+      log.newLine()
+      log.info(`Skipped ${count} ${pluralize('quote', count)}: ${reason}`)
+      if (verbose) logJSONTable(documents, { excludeKeys: ['_id'] })
+    }
+  })
 
-  Object.entries(counts).forEach(([MODEL, count]) => {
+  // Log info about the objects that were added to each collection
+  entries(added).forEach(([key, documents]) => {
+    const count = documents.length
+    const MODEL = key.replace(/s$/, '')
     log.newLine()
     if (count) {
       log.info(`Added ${count} new ${pluralize(MODEL, count)}`)
-      if (verbose) {
-        logJSONTable(inputData[`${MODEL}s`], { excludeKeys: ['_id'] })
-      }
+      if (verbose) logJSONTable(documents, { excludeKeys: ['_id'] })
     } else {
       log.info(`No new ${pluralize(MODEL, count)} to add`)
     }

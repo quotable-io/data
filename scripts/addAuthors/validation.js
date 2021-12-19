@@ -4,7 +4,7 @@ const { properties } = require('../../schema/models/Author')
 
 // Schema for the input data
 const validateInput = ajv.compile({
-  name: 'addAuthors input',
+  title: 'addAuthors input',
   type: 'array',
   items: {
     type: 'object',

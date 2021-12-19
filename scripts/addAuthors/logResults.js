@@ -1,18 +1,25 @@
 const pluralize = require('pluralize')
+const lowerCase = require('lodash/lowerCase')
 const { log } = require('../../lib/log')
+const { entries } = require('../../lib/object')
 const { logJSONTable } = require('../../lib/logJSONTable')
 
-function logResults(inputData, newAuthors, verbose, dryRun) {
-  const skipped = inputData.length - newAuthors.length
-  const authors = newAuthors.length
-  if (skipped) {
-    log.newLine()
-    log.info(`Skipped ${skipped} duplicate ${pluralize('author', skipped)}`)
-  }
-  log.newLine()
-  if (authors) {
-    log.info(`Added ${authors} new ${pluralize('author', authors)} `)
-    if (verbose) logJSONTable(newAuthors, { excludeKeys: '_id' })
+function logResults(authors, skipped, verbose, dryRun) {
+  // Output info about authors that were skipped
+  entries(skipped).forEach(([key, documents]) => {
+    const count = documents.length
+    const reason = lowerCase(key)
+    if (count) {
+      log.newLine()
+      log.info(`Skipped ${count} ${pluralize('author', count)}: ${reason}`)
+      if (verbose) logJSONTable(documents, { excludeKeys: ['_id'] })
+    }
+  })
+  // Output info about the authors that were added
+  if (authors.length) {
+    const count = authors.length
+    log.info(`Added ${count} new ${pluralize('author', authors)} `)
+    if (verbose) logJSONTable(authors, { excludeKeys: '_id' })
   } else {
     log.info(`No new authors to add`)
   }

@@ -21,7 +21,7 @@ const computedProperties = {
  * data does not include computed properties.
  */
 const QuoteSource = {
-  name: 'Quote',
+  title: 'Quote',
   type: 'object',
   properties,
   required: Object.keys(properties),
@@ -35,7 +35,7 @@ const QuoteSource = {
  * properties that not included in the source data.
  */
 const Quote = {
-  name: 'Quote',
+  title: 'Quote',
   type: 'object',
   properties: { ...properties, ...computedProperties },
   required: [...Object.keys(properties), ...Object.keys(computedProperties)],
