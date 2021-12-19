@@ -20667,5 +20667,71 @@
     "length": 70,
     "dateAdded": "2021-05-12",
     "dateModified": "2021-05-12"
+  },
+  {
+    "_id": "2xpHvSOQMD",
+    "author": "Helmut Schmidt",
+    "content": "The biggest room in the world is room for improvement.",
+    "tags": ["famous-quotes", "inspirational"],
+    "authorId": "uN4pwgk9w",
+    "authorSlug": "helmut-schmidt",
+    "length": 54,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "XNLGqepInX",
+    "author": "Amy Poehler",
+    "content": "There’s power in looking silly and not caring that you do.",
+    "tags": ["famous-quotes", "inspirational"],
+    "authorId": "MQmngYY-7",
+    "authorSlug": "amy-poehler",
+    "length": 58,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "aEPNVog6sT",
+    "author": "Eric Hoffer",
+    "content": "In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.",
+    "tags": ["famous-quotes", "inspirational"],
+    "authorId": "RoaDhiQ12",
+    "authorSlug": "eric-hoffer",
+    "length": 146,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "HMBEfGB94i",
+    "author": "Henry Ford",
+    "content": "Whether you think you can or you think you can't, you are right.",
+    "tags": ["famous-quotes", "inspirational"],
+    "authorId": "J2ynRBIvHlwN",
+    "authorSlug": "henry-ford",
+    "length": 64,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "QdK00IhCNX",
+    "author": "Larry Page",
+    "content": "If you're changing the world, you're working on important things. You're excited to get up in the morning.",
+    "tags": ["famous-quotes", "inspirational"],
+    "authorId": "d9GOAXd7i",
+    "authorSlug": "larry-page",
+    "length": 106,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "lJ60rOYWci",
+    "author": "Neil Gaiman",
+    "content": "The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.",
+    "tags": ["famous-quotes", "inspirational"],
+    "authorId": "gV-aNRRIh",
+    "authorSlug": "neil-gaiman",
+    "length": 177,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
   }
 ]

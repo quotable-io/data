@@ -4874,5 +4874,33 @@
     "link": "https://en.wikipedia.org/wiki/Laurie_Anderson",
     "bio": "Laura Phillips Anderson (born June 5, 1947) is an American avant-garde artist, composer, musician and film director whose work spans performance art, pop music, and multimedia projects. Initially trained in violin and sculpting, Anderson pursued a variety of performance art projects in New York during the 1970s,  focusing particularly on language, technology, and visual imagery.",
     "description": "American artist"
+  },
+  {
+    "_id": "uN4pwgk9w",
+    "name": "Helmut Schmidt",
+    "bio": "Helmut Heinrich Waldemar Schmidt (23 December 1918 – 10 November 2015) was a German politician and member of the Social Democratic Party of Germany (SPD), who served as Chancellor of the Federal Republic of Germany (West Germany) from 1974 to 1982. Before becoming Chancellor, he had served as Minister of Defence (1969–1972) and as Minister of Finance (1972–1974). In the latter role he gained credit for his financial policies.",
+    "description": "Chancellor of West Germany",
+    "link": "https://en.wikipedia.org/wiki/Helmut_Schmidt"
+  },
+  {
+    "_id": "MQmngYY-7",
+    "name": "Amy Poehler",
+    "bio": "Amy Poehler (born September 16, 1971) is an American actress, comedian, writer, producer, and director. After studying improv at Chicago's Second City and ImprovOlympic in the early 1990s, she co-founded the improvisational-comedy troupe Upright Citizens Brigade. The group moved to New York City in 1996 where their act became a half-hour sketch-comedy series on Comedy Central in 1998.",
+    "description": "American comedian",
+    "link": "https://en.wikipedia.org/wiki/Amy_Poehler"
+  },
+  {
+    "_id": "d9GOAXd7i",
+    "name": "Larry Page",
+    "bio": "Lawrence Edward Page (born March 26, 1973) is an American business magnate, computer scientist and Internet entrepreneur. He is best known as one of the co-founders of Google along with Sergey Brin.Page was the chief executive officer of Google from 1997 until August 2001 (stepping down in favor of Eric Schmidt) then from April 2011 until July 2015 when he moved to become CEO of Alphabet Inc. (created to deliver \"major advancements\" as Google's parent company), a post he held until December 4, 2019.",
+    "description": "American business magnate",
+    "link": "https://en.wikipedia.org/wiki/Larry_Page"
+  },
+  {
+    "_id": "gV-aNRRIh",
+    "name": "Neil Gaiman",
+    "bio": "Neil Richard MacKinnon Gaiman (born Neil Richard Gaiman, 10 November 1960) is an English author of short fiction, novels, comic books, graphic novels, nonfiction, audio theatre, and films. His works include the comic book series The Sandman and novels Stardust, American Gods, Coraline, and The Graveyard Book. He has won numerous awards, including the Hugo, Nebula, and Bram Stoker awards, as well as the Newbery and Carnegie medals.",
+    "description": "English writer",
+    "link": "https://en.wikipedia.org/wiki/Neil_Gaiman"
   }
 ]

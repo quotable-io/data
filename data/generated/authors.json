@@ -6509,10 +6509,10 @@
     "link": "https://en.wikipedia.org/wiki/Henry_Ford",
     "bio": "Henry Ford (July 30, 1863 – April 7, 1947) was an American industrialist and a business magnate, the founder of the Ford Motor Company, and the sponsor of the development of the assembly line technique of mass production.",
     "description": "American businessperson",
-    "quoteCount": 4,
+    "quoteCount": 5,
     "slug": "henry-ford",
     "dateAdded": "2021-01-20",
-    "dateModified": "2021-01-20"
+    "dateModified": "2021-06-18"
   },
   {
     "_id": "N5zjr1qxROEY",
@@ -6697,10 +6697,10 @@
     "description": "American moral and social philosopher",
     "link": "https://en.wikipedia.org/wiki/Eric_Hoffer",
     "aka": [],
-    "quoteCount": 0,
+    "quoteCount": 1,
     "slug": "eric-hoffer",
     "dateAdded": "2021-01-30",
-    "dateModified": "2021-01-30"
+    "dateModified": "2021-06-18"
   },
   {
     "_id": "Xe6MdAjz9_t9",
@@ -7658,5 +7658,49 @@
     "slug": "laurie-anderson",
     "dateAdded": "2021-05-12",
     "dateModified": "2021-05-12"
+  },
+  {
+    "_id": "uN4pwgk9w",
+    "name": "Helmut Schmidt",
+    "bio": "Helmut Heinrich Waldemar Schmidt (23 December 1918 – 10 November 2015) was a German politician and member of the Social Democratic Party of Germany (SPD), who served as Chancellor of the Federal Republic of Germany (West Germany) from 1974 to 1982. Before becoming Chancellor, he had served as Minister of Defence (1969–1972) and as Minister of Finance (1972–1974). In the latter role he gained credit for his financial policies.",
+    "description": "Chancellor of West Germany",
+    "link": "https://en.wikipedia.org/wiki/Helmut_Schmidt",
+    "quoteCount": 1,
+    "slug": "helmut-schmidt",
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "MQmngYY-7",
+    "name": "Amy Poehler",
+    "bio": "Amy Poehler (born September 16, 1971) is an American actress, comedian, writer, producer, and director. After studying improv at Chicago's Second City and ImprovOlympic in the early 1990s, she co-founded the improvisational-comedy troupe Upright Citizens Brigade. The group moved to New York City in 1996 where their act became a half-hour sketch-comedy series on Comedy Central in 1998.",
+    "description": "American comedian",
+    "link": "https://en.wikipedia.org/wiki/Amy_Poehler",
+    "quoteCount": 1,
+    "slug": "amy-poehler",
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "d9GOAXd7i",
+    "name": "Larry Page",
+    "bio": "Lawrence Edward Page (born March 26, 1973) is an American business magnate, computer scientist and Internet entrepreneur. He is best known as one of the co-founders of Google along with Sergey Brin.Page was the chief executive officer of Google from 1997 until August 2001 (stepping down in favor of Eric Schmidt) then from April 2011 until July 2015 when he moved to become CEO of Alphabet Inc. (created to deliver \"major advancements\" as Google's parent company), a post he held until December 4, 2019.",
+    "description": "American business magnate",
+    "link": "https://en.wikipedia.org/wiki/Larry_Page",
+    "quoteCount": 1,
+    "slug": "larry-page",
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
+  },
+  {
+    "_id": "gV-aNRRIh",
+    "name": "Neil Gaiman",
+    "bio": "Neil Richard MacKinnon Gaiman (born Neil Richard Gaiman, 10 November 1960) is an English author of short fiction, novels, comic books, graphic novels, nonfiction, audio theatre, and films. His works include the comic book series The Sandman and novels Stardust, American Gods, Coraline, and The Graveyard Book. He has won numerous awards, including the Hugo, Nebula, and Bram Stoker awards, as well as the Newbery and Carnegie medals.",
+    "description": "English writer",
+    "link": "https://en.wikipedia.org/wiki/Neil_Gaiman",
+    "quoteCount": 1,
+    "slug": "neil-gaiman",
+    "dateAdded": "2021-06-18",
+    "dateModified": "2021-06-18"
   }
 ]

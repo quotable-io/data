@@ -11272,5 +11272,41 @@
     "content": "Friendship increases in visiting friends, but in visiting them seldom.",
     "author": "Francis Bacon",
     "tags": ["friendship"]
+  },
+  {
+    "_id": "2xpHvSOQMD",
+    "author": "Helmut Schmidt",
+    "content": "The biggest room in the world is room for improvement.",
+    "tags": ["famous-quotes", "inspirational"]
+  },
+  {
+    "_id": "XNLGqepInX",
+    "author": "Amy Poehler",
+    "content": "There’s power in looking silly and not caring that you do.",
+    "tags": ["famous-quotes", "inspirational"]
+  },
+  {
+    "_id": "aEPNVog6sT",
+    "author": "Eric Hoffer",
+    "content": "In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.",
+    "tags": ["famous-quotes", "inspirational"]
+  },
+  {
+    "_id": "HMBEfGB94i",
+    "author": "Henry Ford",
+    "content": "Whether you think you can or you think you can't, you are right.",
+    "tags": ["famous-quotes", "inspirational"]
+  },
+  {
+    "_id": "QdK00IhCNX",
+    "author": "Larry Page",
+    "content": "If you're changing the world, you're working on important things. You're excited to get up in the morning.",
+    "tags": ["famous-quotes", "inspirational"]
+  },
+  {
+    "_id": "lJ60rOYWci",
+    "author": "Neil Gaiman",
+    "content": "The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.",
+    "tags": ["famous-quotes", "inspirational"]
   }
 ]
