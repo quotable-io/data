@@ -2,9 +2,9 @@ const path = require('path')
 
 exports.dataDir = {
   // The source data
-  source: path.join(__dirname, '../data/source'),
+  source: path.join(__dirname, '../data'),
   // Generated data
-  generated: path.join(__dirname, '../data/generated'),
+  generated: path.join(__dirname, '../../generated'),
 }
 
 exports.cacheDir = path.join(__dirname, '../.cache')

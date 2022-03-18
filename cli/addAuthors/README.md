@@ -23,7 +23,7 @@ There are two ways to add authors:
 The default location for the input file is `input/authors.json`. If you use the default file location, you can omit the `<inputFile>` argument. See [input file](#input-file) for more details.
 
 ```SHELL
-❯ node scripts/addAuthors <inputFile>
+❯ node cli/addAuthors <inputFile>
 ```
 
 **2. With the `--name` argument**
@@ -31,7 +31,7 @@ The default location for the input file is `input/authors.json`. If you use the 
 Instead of creating an input file, you specify a list of author names via the `--name` argument.
 
 ```SHELL
-❯ node scripts/addAuthors --name="pete seeger, bob dylan"
+❯ node cli/addAuthors --name="pete seeger, bob dylan"
 ```
 
 ## Input File

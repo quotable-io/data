@@ -1,10 +1,10 @@
-# Scripts/findDuplicates
+# cli/findDuplicates
 
 Checks the `quotes` collection for possible duplicates quotes. It does not modify the data files, it just outputs a list of possible duplicates to the console so they can be manually checked and removed.  
 
 ### Usage 
 ```shell
-❯ node scripts/findDuplicates 
+❯ node cli/findDuplicates 
 ```
 
 ### Output

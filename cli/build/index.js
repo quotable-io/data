@@ -19,7 +19,7 @@ const { entries } = Object
 function parseArgs() {
   const args = minimist(process.argv.slice(2))
   const SRC = path.resolve(args.src || args.s || dataDir.source)
-  const DEST = path.resolve(args.dest || args.d || dataDir.generated)
+  const DEST = path.resolve(args[0] || args.d || args.dest || dataDir.generated)
   return { SRC, DEST }
 }
 
@@ -37,12 +37,12 @@ run(async () => {
   // Run validation script on source data to make sure it matches schema before
   // updating generated data files.
   log.info('Validating source data')
-  const validate = `node ${path.resolve('scripts/validate')} source`
+  const validate = `node ${path.resolve('cli/validate')} source`
   const validationResult = shell.exec(validate, { silent: true })
   if (validationResult.code) {
     log.newLine()
     log.error('Data validation failed')
-    log('For more info, run `node scripts/validate source`')
+    log('For more info, run `node cli/validate source`')
     process.exit(1)
   }
   // If validation passed, build new generated data files from source data

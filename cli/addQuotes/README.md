@@ -7,7 +7,7 @@ This script is the primary mechanism for adding new content (quotes, authors and
 The default location for the input file is `input/quotes.json`. If you use the default location you can omit the `<inputFile>` argument.
 
 ```SHELL
-$ node scripts/addQuotes <inputFile>
+$ node cli/addQuotes <inputFile>
 ```
 
 ### Arguments
@@ -68,7 +68,7 @@ Any new tags will be created and added to the `tags` collection. Please try to a
 ```
 
 ```shell
-$ node scripts/addQuotes input/quotes.json -v
+$ node cli/addQuotes input/quotes.json -v
 ```
 
 In this example, there are two people on wikipedia named "Larry Page", so the script will prompt us to choose the correct person.

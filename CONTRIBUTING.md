@@ -8,7 +8,7 @@
 
 - Quotes should be good quality: accurate, interesting, and fun to read. 
 - Quotes should not contain any offensive language  
-- All authors must have a wikipedia page (we use the wiki API for creating Author entries)
+- All authors must have a wikipedia page (we use the wiki API for creating Author objects and various other things)
 
 ## Issue Contributions 
 
@@ -70,36 +70,23 @@ If you would like to contribute directly, pull requests are welcome too.
 
 Fork and clone the repository. Install dependencies.
 
-Important: There are two sets of data files in the repository. All changes should also be made to the source data, not the generated data. 
-
-- `data/source` - The source data
-- `data/generated` - generated automatically by running the `build` command.
-
 ### CLI Scripts 
 
 There are several CLI scripts for managing the data.  
 
-- [`addQuotes`](./scripts/addQuotes/README.md)
-- [`addAuthors`](./scripts/addAuthors/README.md)
-- [`addTags`](./scripts/addTags/README.md)
-- [`validate`](./scripts/validate/README.md)
-- [`build`](./scripts/build/README.md)
+- [`addQuotes`](./cli/addQuotes/README.md)
+- [`addAuthors`](./cli/addAuthors/README.md)
+- [`addTags`](./cli/addTags/README.md)
+- [`validate`](./cli/validate/README.md)
+- [`build`](./cli/build/README.md)
 
 ### Submitting PR 
-
-Before submitting a PR, run the `npm build` command to update the generated data files. 
-```
-$ npm build
-```
-
-If the build script fails due to a data validation error, see [data validation](#data-validation) 
-
 ### Data validation
 
-The data is validated against a JSON schema using [ajv](https://ajv.js.org/). You can use [`scripts/validate`](./scripts/validate/README.md) to check the data files for validation errors. It will provide detailed output about any errors that need to be fixed. 
+Before submitting a PR, please run the data validation script to ensure there are no validation errors in the data files. We use [ajv](https://ajv.js.org/) to validate the data against a JSON schema. For more info about the validation script see  [`cli/validate/README.md`](./cli/validate/README.md)
 
 ```SHELL
-❯ node scripts/validate
+❯ node cli/validate
 ```
 
 
@@ -109,23 +96,23 @@ The data is validated against a JSON schema using [ajv](https://ajv.js.org/). Yo
 
 The `addQuotes` script is the primary mechanism for adding new content (quotes, authors, and tags). It takes an array of quotes from an input file, fitters out any quotes duplicates, then adds the new quotes to `quotes.json` collection. It also checks for any authors and tags that do not already exist, creates the necessary objects and adds them to their respective collections. It uses the wiki API to get `Author` details like `bio`, `description`, `link` etc.
 
-See [`scripts/addQuotes`](./scripts/addQuotes/README.md) for details.
+See [`cli/addQuotes`](./cli/addQuotes/README.md) for details.
 
 ```SHELL
-❯ node scripts/addQuotes input/quotes.json
+❯ node cli/addQuotes input/quotes.json
 ```
 
 ### Editing existing content
 
-To edit existing content for spelling, grammar, and accuracy you can edit the JSON files directly and then submit a PR. Make sure to edit the source data (in `data/source/`). 
+To edit existing content for spelling, grammar, and accuracy you can edit the JSON files directly and then submit a PR. Below is the list of properties that can be manually edited. 
 
-You can also add/remove tags on existing quotes by editing quotes.json file (at the moment this is the only way to edit tags on existing quotes). 
-
-**The following properties can be edited manually in the JSON files** 
-
-- `data/source/quotes.json`
+- `data/quotes.json`
   - content
   - tags
-- `data/source/authors.json`
+- `data/authors.json`
   - bio
   - description
+
+You can also add/remove tags to existing quotes by editing the `data/quotes.json` file (for the moment, this is the only way to edit tags on existing quotes). 
+
+

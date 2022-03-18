@@ -28,7 +28,7 @@ function parseArgs() {
   const DEBUG = args.b || args.debug
   const VERBOSE = args.v || args.verbose
   const TARGET = args._[0] || 'source'
-  if (!/^(source|generated)$/.test(TARGET)) {
+  if (!/^(source|generated)$/i.test(TARGET)) {
     throw new Error(Errors.invalidTarget)
   }
   return { DEBUG, VERBOSE, TARGET }

@@ -5,13 +5,13 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "build": "node ./scripts/build"
+    "build": "node ./cli/build"
   },
   "bin": {
-    "addQuotes": "scripts/addQuotes/index.js",
-    "addAuthors": "scripts/addAuthors/index.js",
-    "addTags": "scripts/addTags/index.js",
-    "validate": "scripts/validate/index.js"
+    "addQuotes": "cli/addQuotes/index.js",
+    "addAuthors": "cli/addAuthors/index.js",
+    "addTags": "cli/addTags/index.js",
+    "validate": "cli/validate/index.js"
   },
   "main": "data/generated/index.js",
   "files": [

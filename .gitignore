@@ -3,7 +3,7 @@
 /images
 /temp
 /private
-/scripts/private
+/cli/private
 .cache
 
 # dependencies
