@@ -8,6 +8,11 @@
     "browser": false
   },
   "rules": {
+    "import/extensions": {
+      "mjs": "always",
+      "json": "always",
+      "js": "never"
+    },
     // "no-unused-vars": "warn",
     "consistent-return": 0,
     "radix": 0,
