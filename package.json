@@ -9,10 +9,10 @@
     "build": "node ./cli/build"
   },
   "bin": {
-    "addQuotes": "cli/addQuotes/index.js",
-    "addAuthors": "cli/addAuthors/index.js",
-    "addTags": "cli/addTags/index.js",
-    "validate": "cli/validate/index.js"
+    "addQuotes": "cli/addQuotes/index.mjs",
+    "addAuthors": "cli/addAuthors/index.mjs",
+    "addTags": "cli/addTags/index.mjs",
+    "validate": "cli/validate/index.mjs"
   },
   "main": "data/generated/index.js",
   "files": [
