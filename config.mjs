@@ -10,4 +10,4 @@ export const dataDir = {
   generated: path.join(rootDir, '../generated'),
 }
 
-export const cacheDir = path.join(rootDir, 'cache')
+export const cacheDir = path.join(rootDir, '.cache')

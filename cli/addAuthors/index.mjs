@@ -15,7 +15,7 @@ import { logResults } from './logResults.mjs'
 import { select } from '../../lib/selectInput.mjs'
 import { validateInput } from './validation.mjs'
 import { dataDir } from '../../config.mjs'
-import { wiki } from '../../lib/wiki.mjs'
+import { wiki } from '../../lib/wiki/index.mjs'
 
 /**
  * Parses the CLI arguments
