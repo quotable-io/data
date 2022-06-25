@@ -22,4 +22,4 @@ function logResults(inputData, newTags, verbose, dryRun) {
     log(`This was a dry run, changes were not saved`)
   }
 }
-exports.logResults = logResults
+export { logResults }

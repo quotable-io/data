@@ -7,6 +7,6 @@ exports.dataDir = {
   generated: path.join(__dirname, '../../generated'),
 }
 
-exports.cacheDir = path.join(__dirname, '../.cache')
+export { cacheDir }.join(__dirname, '../.cache')
 
-exports.rootDir = path.join(__dirname, '../')
+export { rootDir }.join(__dirname, '../')

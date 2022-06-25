@@ -2,9 +2,9 @@
 
 const path = require('path')
 const minimist = require('minimist')
-const trim = require('lodash/trim')
-const uniq = require('lodash/uniq')
-const remove = require('lodash/remove')
+import { trim } from 'lodash-es'
+import { uniq } from 'lodash-es'
+import { remove } from 'lodash-es'
 const shortid = require('shortid')
 const { writeJSONFiles } = require('../../lib/writeJSONFiles')
 const { parseDataFiles } = require('../../lib/parseDataFiles')

@@ -1,5 +1,5 @@
 const wrap = require('word-wrap')
-const chalk = require('chalk')
+import chalk from 'chalk'
 const { log } = require('../../lib/log')
 const { Table } = require('../../lib/Spinner')
 
@@ -28,4 +28,4 @@ function logResults(duplicateGroups) {
   })
 }
 
-exports.logResults = logResults
+export { logResults }

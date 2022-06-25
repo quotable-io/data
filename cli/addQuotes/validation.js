@@ -1,4 +1,4 @@
-const omit = require('lodash/omit')
+import { omit } from 'lodash-es'
 const { ajv } = require('../../lib/ajv')
 const { properties } = require('../../schema/models/Quote')
 
@@ -14,4 +14,4 @@ const validateInput = ajv.compile({
   },
 })
 
-exports.validateInput = validateInput
+export { validateInput }

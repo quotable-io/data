@@ -48,8 +48,8 @@ const quotes = {
 }
 
 // Named Exports
-exports.QuoteSource = QuoteSource
-exports.Quote = Quote
-exports.quotes = quotes
-exports.properties = properties
-exports.computedProperties = computedProperties
+export { QuoteSource }
+export { Quote }
+export { quotes }
+export { properties }
+export { computedProperties }

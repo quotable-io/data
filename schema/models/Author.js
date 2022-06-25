@@ -48,8 +48,8 @@ const Author = {
 const authors = { type: 'array', items: Author }
 
 // Named Exports
-exports.authors = authors
-exports.Author = Author
-exports.AuthorSource = AuthorSource
-exports.properties = properties
-exports.computedProperties = computedProperties
+export { authors }
+export { Author }
+export { AuthorSource }
+export { properties }
+export { computedProperties }

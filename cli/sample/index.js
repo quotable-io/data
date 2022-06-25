@@ -1,5 +1,5 @@
 const fs = require('fs')
-const chalk = require('chalk')
+import chalk from 'chalk'
 const minimist = require('minimist')
 const path = require('path')
 const shell = require('shelljs')

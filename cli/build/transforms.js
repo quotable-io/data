@@ -1,8 +1,10 @@
-const identity = require('lodash/identity')
-const { cyan } = require('chalk')
+import { identity } from 'lodash-es'
+import chalk from 'chalk'
 const slugify = require('@lukepeavey/slugify')
 const { findQuotesByTag } = require('../../lib/findQuotesByTag')
 const { log } = require('../../lib/log')
+
+const { cyan } = chalk
 
 /**
  * Adds computed fields to author

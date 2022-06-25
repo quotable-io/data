@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
-const chalk = require('chalk')
+import chalk from 'chalk'
 const figures = require('figures')
-const mapValues = require('lodash/mapValues')
-const add = require('lodash/add')
+import { mapValues } from 'lodash-es'
+import { add } from 'lodash-es'
 const minimist = require('minimist')
 const path = require('path')
 const { parse } = require('json-source-map')

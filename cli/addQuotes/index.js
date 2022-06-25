@@ -3,11 +3,11 @@
 const path = require('path')
 const shell = require('shelljs')
 const minimist = require('minimist')
-const uniq = require('lodash/uniq')
-const uniqBy = require('lodash/uniqBy')
-const kebabCase = require('lodash/kebabCase')
-const remove = require('lodash/remove')
-const flatMap = require('lodash/flatMap')
+import { uniq } from 'lodash-es'
+import { uniqBy } from 'lodash-es'
+import { kebabCase } from 'lodash-es'
+import { remove } from 'lodash-es'
+import { flatMap } from 'lodash-es'
 const shortid = require('shortid')
 const slugify = require('@lukepeavey/slugify')
 const { createProgressBar } = require('../../lib/progressBar')

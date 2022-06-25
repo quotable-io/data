@@ -20,4 +20,4 @@ const types = {
     minLength: 1,
   },
 }
-exports.types = types
+export { types }

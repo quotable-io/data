@@ -1,5 +1,5 @@
 const pluralize = require('pluralize')
-const lowerCase = require('lodash/lowerCase')
+import { lowerCase } from 'lodash-es'
 const { log } = require('../../lib/log')
 const { entries } = require('../../lib/object')
 const { logJSONTable } = require('../../lib/logJSONTable')
@@ -29,4 +29,4 @@ function logResults(authors, skipped, verbose, dryRun) {
     log(`This was a dry run, changes were not saved`)
   }
 }
-exports.logResults = logResults
+export { logResults }

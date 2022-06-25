@@ -45,8 +45,8 @@ const tags = {
 }
 
 // Named Exports
-exports.TagSource = TagSource
-exports.Tag = Tag
-exports.tags = tags
-exports.properties = properties
-exports.computedProperties = computedProperties
+export { TagSource }
+export { Tag }
+export { tags }
+export { properties }
+export { computedProperties }

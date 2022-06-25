@@ -12,4 +12,4 @@ const validateInput = ajv.compile({
   },
 })
 
-exports.validateInput = validateInput
+export { validateInput }
