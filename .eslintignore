@@ -3,6 +3,9 @@
 /data
 /docs
 /private
+/temp
+/input
+/.cache
 __tests__
 node_modules
 **/*.spec.js

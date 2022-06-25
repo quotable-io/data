@@ -2,7 +2,7 @@
 
 - [Content Guidelines](#content-guidelines)
 - [Issue Contributions](#issue-contributions)
-- [Direct Contributions (pull requests)](#direct-contributions-pull-requests)
+- [Pull Requests](#pull-requests)
 
 ## Content Guidelines
 
@@ -16,29 +16,23 @@ The easiest way to contribute is by opening an issue to propose changes.
 
 ### Suggesting new quotes
 
-You can open an issue to suggest new quotes. 
+You can open an issue to suggest new quotes. **You don't need to check if the quotes are already in the database.** Duplicates will be skipped automatically when we add the quotes. 
 
-Please proof reed quotes for spelling and grammar
-
-**You do not need to check if a quote is already in the collection.** Duplicates will be skipped automatically when importing new quotes.
-
-#### Format for new quotes
-
-Please format the list of quotes as a JSON array.  Each quote should have the following properties. 
+- Please proof reed quotes for spelling and grammar. 
+- Please format the list of quotes as a JSON array.  Each quote should have the following properties. 
 
 ```ts
 {
   // The quotation text
   content: string,
-  // The author's full name
+  // The author's full name 
+  // ideally use the exact name on the person's wikipedia page
   author: string,
   // Array of tags
   tags: string[]
 }
 ```
-
 **Example**
-
 ```json
 [
   {
@@ -54,25 +48,22 @@ Please format the list of quotes as a JSON array.  Each quote should have the fo
 ]
 ```
 
-### Editing existing content
+### Suggesting Changes
 
-You can open to an issue to suggest changes to existing content, for example to fix spelling, grammar, or accuracy, etc.
+You can open to an issue to suggest changes to existing quotes. For example, to fix spelling, grammar, or accuracy, etc.
 
-Please include the `id` or `slug` of each object that needs to be fixed, along with the corrections. 
+- Please include the ids of object that needs to be fixed, along with the proposed changes. 
 
-### Removing quotes
+## Pull Requests
 
-If you find any quotes that are inaccurate, offensive, or poor quality, please open an issue.
-## Direct Contributions (pull requests)
-
-If you would like to contribute directly, pull requests are welcome too.   
+If you would like to contribute directly, feel free to submit a pull request. 
 ### Setup
 
-Fork and clone the repository. Install dependencies.
+1. Fork and clone this repository. 
+2. Install dependencies
 
-### CLI Scripts 
-
-There are several CLI scripts for managing the data.  
+The repository includes the following CLI scripts for making changes to the data:
+These require Node >= 16. 
 
 - [`addQuotes`](./cli/addQuotes/README.md)
 - [`addAuthors`](./cli/addAuthors/README.md)
@@ -80,31 +71,22 @@ There are several CLI scripts for managing the data.
 - [`validate`](./cli/validate/README.md)
 - [`build`](./cli/build/README.md)
 
-### Submitting PR 
-### Data validation
-
-Before submitting a PR, please run the data validation script to ensure there are no validation errors in the data files. We use [ajv](https://ajv.js.org/) to validate the data against a JSON schema. For more info about the validation script see  [`cli/validate/README.md`](./cli/validate/README.md)
-
-```SHELL
-❯ node cli/validate
-```
-
-
 ### Adding new content
 
-**Do not manually add new content to the data files**
+**Do not add new content to the JSON files directly**
 
-The `addQuotes` script is the primary mechanism for adding new content (quotes, authors, and tags). It takes an array of quotes from an input file, fitters out any quotes duplicates, then adds the new quotes to `quotes.json` collection. It also checks for any authors and tags that do not already exist, creates the necessary objects and adds them to their respective collections. It uses the wiki API to get `Author` details like `bio`, `description`, `link` etc.
+The `addQuotes` script is the primary mechanism for adding new content (quotes, authors, and tags). It takes an array of quotes from an input file, checks it against the existing collection to filter out duplicates, then adds the new quotes to `quotes.json` collection. It also checks for any authors and tags that do not already exist, creates the necessary objects and adds them to their respective collections. It uses the wiki API to get `Author` details like `bio`, `description`, `link` etc.
 
 See [`cli/addQuotes`](./cli/addQuotes/README.md) for details.
+
+After adding your new quotes, open a pull request. 
 
 ```SHELL
 ❯ node cli/addQuotes input/quotes.json
 ```
+### Editing Content
 
-### Editing existing content
-
-To edit existing content for spelling, grammar, and accuracy you can edit the JSON files directly and then submit a PR. Below is the list of properties that can be manually edited. 
+To edit existing quotes for spelling, grammar, and accuracy, you can edit the JSON files directlyBelow is the list of properties that can be manually edited. 
 
 - `data/quotes.json`
   - content
@@ -113,6 +95,18 @@ To edit existing content for spelling, grammar, and accuracy you can edit the JS
   - bio
   - description
 
-You can also add/remove tags to existing quotes by editing the `data/quotes.json` file (for the moment, this is the only way to edit tags on existing quotes). 
+After making changes, submit a pull request
+
+### Adding Tags to Existing Quotes 
+
+The goal of the tags feature was to organize the quotes into various overlapping categories or topics -- such as "civil rights", "business", "success", "happiness", "technology", etc. 
+
+To make this feature more useful, we need to add appropriate tags to all the existing quotes. Currently less than half the quotes have tags. 
+
+The only way to add tags to the existing quotes is by manually editing the `quotes.json` file. Each quote has a `tags` property which is an array of tag names. You can go through and manually add new tags to the quotes as you read through them. 
+
+
+
+
 
 

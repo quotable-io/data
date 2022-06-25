@@ -6,13 +6,14 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "build": "node ./cli/build"
+    "build": "node ./cli/build",
+    "lint": "./node_modules/.bin/eslint . --color && echo \"eslint: no lint errors\""
   },
   "bin": {
-    "addQuotes": "cli/addQuotes/index.mjs",
-    "addAuthors": "cli/addAuthors/index.mjs",
-    "addTags": "cli/addTags/index.mjs",
-    "validate": "cli/validate/index.mjs"
+    "addQuotes": "cli/addQuotes/index.js",
+    "addAuthors": "cli/addAuthors/index.js",
+    "addTags": "cli/addTags/index.js",
+    "validate": "cli/validate/index.js"
   },
   "main": "data/generated/index.js",
   "files": [

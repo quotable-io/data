@@ -1,18 +1,17 @@
 {
   "extends": ["airbnb-base", "prettier"],
   "parserOptions": {
-    "ecmaVersion": 9
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
   "env": {
     "node": true,
     "browser": false
   },
   "rules": {
-    "import/extensions": {
-      "mjs": "always",
-      "json": "always",
-      "js": "never"
-    },
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
+    "arrow-body-style": 0,
     // "no-unused-vars": "warn",
     "consistent-return": 0,
     "radix": 0,
