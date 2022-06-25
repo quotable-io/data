@@ -1,4 +1,4 @@
-const { types } = require('../types')
+import { types } from '../types.mjs'
 
 const properties = {
   _id: types.id,

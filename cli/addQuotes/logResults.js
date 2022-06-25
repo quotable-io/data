@@ -1,8 +1,8 @@
 import { lowerCase } from 'lodash-es'
-const pluralize = require('pluralize')
-const { log } = require('../../lib/log')
-const { entries } = require('../../lib/object')
-const { logJSONTable } = require('../../lib/logJSONTable')
+import pluralize from 'pluralize'
+import { log } from '../../lib/log.mjs'
+import { entries } from '../../lib/object.mjs'
+import { logJSONTable } from '../../lib/logJSONTable.mjs'
 
 function logResults(added, skipped, verbose, dryRun) {
   // Output info about the quotes that were skipped

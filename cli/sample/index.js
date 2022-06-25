@@ -1,14 +1,16 @@
-const fs = require('fs')
+import * as fs from 'fs'
 import chalk from 'chalk'
-const minimist = require('minimist')
-const path = require('path')
-const shell = require('shelljs')
-const { random } = require('faker')
-const { run } = require('../../lib/run')
-const { findAuthorByName } = require('../../lib/findAuthorByName')
-const { parseDataFiles } = require('../../lib/parseDataFiles')
-const { writeJSONFiles } = require('../../lib/writeJSONFiles')
-const { Table } = require('../../lib/Table')
+import minimist from 'minimist'
+import * as path from 'path'
+import shelljs from 'shelljs'
+import { faker } from '@faker-js/faker'
+import { run } from '../../lib/run.mjs'
+import { findAuthorByName } from '../../lib/findAuthorByName.mjs'
+import { parseDataFiles } from '../../lib/parseDataFiles.mjs'
+import { writeJSONFiles } from '../../lib/writeJSONFiles.mjs'
+import { Table } from '../../lib/Table.mjs'
+
+const { random } = faker
 
 /** Outputs a table showing the results */
 function createResultsTable(sample) {

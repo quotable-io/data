@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-const { createProgressBar } = require('../../lib/progressBar')
-const { isContentEqual } = require('../../lib/isContentEqual')
-const { logResults } = require('./logResults')
-const { parseDataFiles } = require('../../lib/parseDataFiles')
-const { run } = require('../../lib/run')
-const { dataDir } = require('../../config')
+import { createProgressBar } from '../../lib/progressBar.mjs'
+import { isContentEqual } from '../../lib/isContentEqual.mjs'
+import { logResults } from './logResults.mjs'
+import { parseDataFiles } from '../../lib/parseDataFiles.mjs'
+import { run } from '../../lib/run.mjs'
+import { dataDir } from '../../config.mjs'
 
 run(() => {
   const db = parseDataFiles(dataDir.source)

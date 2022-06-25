@@ -1,21 +1,21 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const minimist = require('minimist')
+import * as path from 'path'
+import minimist from 'minimist'
 import { trim } from 'lodash-es'
 import { uniq } from 'lodash-es'
 import { remove } from 'lodash-es'
-const shortid = require('shortid')
-const { writeJSONFiles } = require('../../lib/writeJSONFiles')
-const { parseDataFiles } = require('../../lib/parseDataFiles')
-const { log } = require('../../lib/log')
-const { parseFile } = require('../../lib/parseFile')
-const { run } = require('../../lib/run')
-const { logResults } = require('./logResults')
-const { select } = require('../../lib/selectInput')
-const { validateInput } = require('./validation')
-const { dataDir } = require('../../config')
-const { wiki } = require('../../lib/wiki')
+import shortid from 'shortid'
+import { writeJSONFiles } from '../../lib/writeJSONFiles.mjs'
+import { parseDataFiles } from '../../lib/parseDataFiles.mjs'
+import { log } from '../../lib/log.mjs'
+import { parseFile } from '../../lib/parseFile.mjs'
+import { run } from '../../lib/run.mjs'
+import { logResults } from './logResults.mjs'
+import { select } from '../../lib/selectInput.mjs'
+import { validateInput } from './validation.mjs'
+import { dataDir } from '../../config.mjs'
+import { wiki } from '../../lib/wiki.mjs'
 
 /**
  * Parses the CLI arguments

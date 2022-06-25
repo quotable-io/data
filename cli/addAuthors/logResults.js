@@ -1,8 +1,8 @@
-const pluralize = require('pluralize')
+import pluralize from 'pluralize'
 import { lowerCase } from 'lodash-es'
-const { log } = require('../../lib/log')
-const { entries } = require('../../lib/object')
-const { logJSONTable } = require('../../lib/logJSONTable')
+import { log } from '../../lib/log.mjs'
+import { entries } from '../../lib/object.mjs'
+import { logJSONTable } from '../../lib/logJSONTable.mjs'
 
 function logResults(authors, skipped, verbose, dryRun) {
   // Output info about authors that were skipped

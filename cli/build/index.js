@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
-const minimist = require('minimist')
-const path = require('path')
-const shell = require('shelljs')
-const moment = require('moment')
-const { dataDir } = require('../../config')
-const { isEqual } = require('../../lib/isEqual')
-const { log } = require('../../lib/log')
-const { parseDataFiles } = require('../../lib/parseDataFiles')
-const { run } = require('../../lib/run')
-const { transforms } = require('./transforms')
-const { writeJSONFiles } = require('../../lib/writeJSONFiles')
+import minimist from 'minimist'
+import * as path from 'path'
+import shelljs from 'shelljs'
+import moment from 'moment'
+import { dataDir } from '../../config.mjs'
+import { isEqual } from '../../lib/isEqual.mjs'
+import { log } from '../../lib/log.mjs'
+import { parseDataFiles } from '../../lib/parseDataFiles.mjs'
+import { run } from '../../lib/run.mjs'
+import { transforms } from './transforms.mjs'
+import { writeJSONFiles } from '../../lib/writeJSONFiles.mjs'
 
 const DATE = moment().format('YYYY-MM-DD')
 const { entries } = Object

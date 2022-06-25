@@ -1,5 +1,5 @@
-const quotes = require('./quotes.json');
-const authors = require('./authors.json');
-const tags = require('./tags.json');
+import quotes from './quotes.json'
+import authors from './authors.json'
+import tags from './tags.json'
 
-module.exports = { quotes, authors, tags };
+export { quotes, authors, tags }

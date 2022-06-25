@@ -1,4 +1,4 @@
-const { ajv } = require('../../lib/ajv')
+import { ajv } from '../../lib/ajv.mjs'
 
 // Schema for the input data
 const validateInput = ajv.compile({

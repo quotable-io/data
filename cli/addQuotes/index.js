@@ -1,29 +1,29 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const shell = require('shelljs')
-const minimist = require('minimist')
+import * as path from 'path'
+import shelljs from 'shelljs'
+import minimist from 'minimist'
 import { uniq } from 'lodash-es'
 import { uniqBy } from 'lodash-es'
 import { kebabCase } from 'lodash-es'
 import { remove } from 'lodash-es'
 import { flatMap } from 'lodash-es'
-const shortid = require('shortid')
-const slugify = require('@lukepeavey/slugify')
-const { createProgressBar } = require('../../lib/progressBar')
-const { dataDir } = require('../../config')
-const { entries, values } = require('../../lib/object')
-const { findQuoteByContent } = require('../../lib/findQuoteByContent')
-const { log } = require('../../lib/log')
-const { logResults } = require('./logResults')
-const { parseContent } = require('../../lib/parseContent')
-const { parseDataFiles } = require('../../lib/parseDataFiles')
-const { parseFile } = require('../../lib/parseFile')
-const { run } = require('../../lib/run')
-const { select } = require('../../lib/selectInput')
-const { validateInput } = require('./validation')
-const { wiki } = require('../../lib/wiki')
-const { writeJSONFiles } = require('../../lib/writeJSONFiles')
+import shortid from 'shortid'
+import slugify from '@lukePeavey/slugify'
+import { createProgressBar } from '../../lib/progressBar.mjs'
+import { dataDir } from '../../config.mjs'
+import { entries, values } from '../../lib/object'
+import { findQuoteByContent } from '../../lib/findQuoteByContent.mjs'
+import { log } from '../../lib/log.mjs'
+import { logResults } from './logResults.mjs'
+import { parseContent } from '../../lib/parseContent.mjs'
+import { parseDataFiles } from '../../lib/parseDataFiles.mjs'
+import { parseFile } from '../../lib/parseFile.mjs'
+import { run } from '../../lib/run.mjs'
+import { select } from '../../lib/selectInput.mjs'
+import { validateInput } from './validation.mjs'
+import { wiki } from '../../lib/wiki.mjs'
+import { writeJSONFiles } from '../../lib/writeJSONFiles.mjs'
 
 /**
  * Parses the CLI arguments

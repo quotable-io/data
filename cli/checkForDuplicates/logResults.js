@@ -1,7 +1,7 @@
-const wrap = require('word-wrap')
+import wrap from 'word-wrap'
 import chalk from 'chalk'
-const { log } = require('../../lib/log')
-const { Table } = require('../../lib/Spinner')
+import { log } from '../../lib/log.mjs'
+import { Table } from '../../lib/Spinner.mjs'
 
 function logResults(duplicateGroups) {
   const WIDTH = Math.min(process.stdout.columns, 105)

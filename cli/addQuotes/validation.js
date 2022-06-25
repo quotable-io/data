@@ -1,6 +1,6 @@
 import { omit } from 'lodash-es'
-const { ajv } = require('../../lib/ajv')
-const { properties } = require('../../schema/models/Quote')
+import { ajv } from '../../lib/ajv.mjs'
+import { properties } from '../../schema/models/Quote.mjs'
 
 // Schema for the input data
 const validateInput = ajv.compile({

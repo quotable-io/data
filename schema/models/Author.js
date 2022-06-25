@@ -1,4 +1,4 @@
-const { types } = require('../types')
+import { types } from '../types.mjs'
 
 // Author properties
 const properties = {

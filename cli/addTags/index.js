@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const minimist = require('minimist')
-const shortid = require('shortid')
+import * as path from 'path'
+import minimist from 'minimist'
+import shortid from 'shortid'
 import { uniq } from 'lodash-es'
 import { trim } from 'lodash-es'
-const slugify = require('@lukepeavey/slugify')
-const { writeJSONFiles } = require('../../lib/writeJSONFiles')
-const { parseDataFiles } = require('../../lib/parseDataFiles')
-const { log } = require('../../lib/log')
-const { parseFile } = require('../../lib/parseFile')
-const { run } = require('../../lib/run')
-const { validateInput } = require('./validation')
-const { dataDir } = require('../../config')
-const { logResults } = require('./logResults')
+import slugify from '@lukePeavey/slugify'
+import { writeJSONFiles } from '../../lib/writeJSONFiles.mjs'
+import { parseDataFiles } from '../../lib/parseDataFiles.mjs'
+import { log } from '../../lib/log.mjs'
+import { parseFile } from '../../lib/parseFile.mjs'
+import { run } from '../../lib/run.mjs'
+import { validateInput } from './validation.mjs'
+import { dataDir } from '../../config.mjs'
+import { logResults } from './logResults.mjs'
 
 /**
  * Parses the CLI arguments

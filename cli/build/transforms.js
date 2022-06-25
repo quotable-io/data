@@ -1,8 +1,8 @@
 import { identity } from 'lodash-es'
 import chalk from 'chalk'
-const slugify = require('@lukepeavey/slugify')
-const { findQuotesByTag } = require('../../lib/findQuotesByTag')
-const { log } = require('../../lib/log')
+import slugify from '@lukePeavey/slugify'
+import { findQuotesByTag } from '../../lib/findQuotesByTag.mjs'
+import { log } from '../../lib/log.mjs'
 
 const { cyan } = chalk
 
@@ -66,4 +66,4 @@ function addTagFields({ tags, ...collections }) {
   }
 }
 
-exports.transforms = [addAuthorFields, addQuoteFields, addTagFields]
+export const transforms = [addAuthorFields, addQuoteFields, addTagFields]

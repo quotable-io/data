@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 
-const fs = require('fs')
+import * as fs from 'fs'
 import chalk from 'chalk'
-const figures = require('figures')
+import figures from 'figures'
 import { mapValues } from 'lodash-es'
 import { add } from 'lodash-es'
-const minimist = require('minimist')
-const path = require('path')
-const { parse } = require('json-source-map')
-const { Author, AuthorSource } = require('../../schema/models/Author')
-const { compile } = require('../../lib/ajv')
-const { dataDir } = require('../../config')
-const { isJSONFile } = require('../../lib/isJSONFile')
-const { log } = require('../../lib/log')
-const { Quote, QuoteSource } = require('../../schema/models/Quote')
-const { run } = require('../../lib/run')
-const { Tag, TagSource } = require('../../schema/models/Tag')
-const { truncate } = require('../../lib/truncate')
+import minimist from 'minimist'
+import * as path from 'path'
+import { parse } from 'json-source-map'
+import { Author, AuthorSource } from '../../schema/models/Author'
+import { compile } from '../../lib/ajv.mjs'
+import { dataDir } from '../../config.mjs'
+import { isJSONFile } from '../../lib/isJSONFile.mjs'
+import { log } from '../../lib/log.mjs'
+import { Quote, QuoteSource } from '../../schema/models/Quote'
+import { run } from '../../lib/run.mjs'
+import { Tag, TagSource } from '../../schema/models/Tag'
+import { truncate } from '../../lib/truncate.mjs'
 
 const Errors = {
   invalidTarget: `Invalid CLI arguments <target> should be "source" | "generated"`,

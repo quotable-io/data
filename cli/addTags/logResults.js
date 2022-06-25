@@ -1,6 +1,6 @@
-const pluralize = require('pluralize')
-const { log } = require('../../lib/log')
-const { logJSONTable } = require('../../lib/logJSONTable')
+import pluralize from 'pluralize'
+import { log } from '../../lib/log.mjs'
+import { logJSONTable } from '../../lib/logJSONTable.mjs'
 
 function logResults(inputData, newTags, verbose, dryRun) {
   const skipped = inputData.length - newTags.length
