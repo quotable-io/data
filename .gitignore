@@ -4,6 +4,7 @@
 /temp
 /private
 /cli/private
+cli/scrape
 .cache
 
 # dependencies

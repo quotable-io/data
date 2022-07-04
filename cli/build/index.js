@@ -4,16 +4,19 @@ import minimist from 'minimist'
 import * as path from 'path'
 import shell from 'shelljs'
 import moment from 'moment'
-import { dataDir } from '../../config.js'
+import { dataDir, rootDir } from '../../config.js'
 import { isEqual } from '../../lib/isEqual.js'
 import { log } from '../../lib/log.js'
 import { parseDataFiles } from '../../lib/parseDataFiles.js'
 import { run } from '../../lib/run.js'
 import { transforms } from './transforms.js'
 import { writeJSONFiles } from '../../lib/writeJSONFiles.js'
+import { parseFile } from '../../lib/parseFile.js'
 
 const DATE = moment().format('YYYY-MM-DD')
 const { entries } = Object
+
+const pkg = await parseFile(path.join(rootDir, 'package.json'))
 
 /** Parses and validates CLI arguments */
 function parseArgs() {
@@ -69,6 +72,15 @@ run(async () => {
     })
     return { ...result, [COLLECTION]: objectsWithTimeStamp }
   }, {})
+
+  const info = {
+    version: pkg.version,
+    count: {
+      quotes: db.quotes.length,
+      authors: db.authors.length,
+      tags: db.tags.length,
+    },
+  }
   // Save the updated JSON to files in the `dist` directory.
-  writeJSONFiles(DEST, data)
+  writeJSONFiles(DEST, { ...data, info })
 })
