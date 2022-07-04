@@ -5453,7 +5453,7 @@
     "_id": "1dK7jPk4UV",
     "name": "Max De Pree",
     "bio": "Max De Pree (October 28, 1924 – August 8, 2017) was an American businessman and writer. A son of D. J. De Pree, founder of Herman Miller office furniture company, he and his brother Hugh De Pree assumed leadership of the company in the early 1960s, with Hugh becoming CEO and president in 1962. Max succeeded his brother Hugh as CEO in 1980 and served in that capacity till 1987; he was a member of the company's Board of Directors until 1995.",
-    "description": null,
+    "description": "American businessman",
     "link": "https://en.wikipedia.org/wiki/Max_De_Pree"
   },
   {
@@ -5467,7 +5467,7 @@
     "_id": "3wkkYH3Tdg",
     "name": "Jack Welch",
     "bio": "John Francis Welch Jr. (November 19, 1935 – March 1, 2020) was an American business executive, chemical engineer, and writer. He was Chairman and CEO of General Electric (GE) between 1981 and 2001.",
-    "description": "American business executive, chemical engineer, and writer",
+    "description": "American business executive",
     "link": "https://en.wikipedia.org/wiki/Jack_Welch"
   },
   {
@@ -5502,7 +5502,7 @@
     "_id": "BnoBwnxHzC",
     "name": "Paul Tournier",
     "bio": "Paul Tournier (12 May 1898 – 7 October 1986) was a Swiss physician and author who had acquired a worldwide audience for his work in pastoral counseling. His ideas had a significant impact on the spiritual and psychosocial aspects of routine patient care, and he has been called the twentieth century's most famous Christian physician.",
-    "description": null,
+    "description": "Swiss physician",
     "link": "https://en.wikipedia.org/wiki/Paul_Tournier"
   },
   {
@@ -5533,7 +5533,6 @@
     "description": "American businessman",
     "link": "https://en.wikipedia.org/wiki/Harold_Geneen"
   },
-  { "_id": "ww3CfWpiePm" },
   {
     "_id": "ROe2B1sUSJD",
     "name": "Robert Kiyosaki",
@@ -5566,7 +5565,7 @@
     "_id": "AjgkI4GylrW",
     "name": "Howard H. Aiken",
     "bio": "Howard Hathaway Aiken (March 8, 1900 – March 14, 1973) was an American physicist and a pioneer in computing, being the original conceptual designer behind IBM's Harvard Mark I computer.",
-    "description": "Pioneer in computing, original conceptual designer behind IBM's Harvard Mark I computer",
+    "description": "Computer scientist",
     "link": "https://en.wikipedia.org/wiki/Howard_H._Aiken"
   },
   {
@@ -5579,8 +5578,43 @@
   {
     "_id": "ozgdAaX6Ht6",
     "name": "Warren Bennis",
-    "bio": "Warren Gamaliel Bennis (March 8, 1925 – July 31, 2014) was an American scholar, organizational consultant and author, widely regarded as a pioneer of the contemporary field of Leadership studies. Bennis was University Professor and Distinguished Professor of Business Administration and Founding Chairman of The Leadership Institute at the University of Southern California.\"His work at MIT in the 1960s on group behavior foreshadowed -- and helped bring about -- today's headlong plunge into less hierarchical, more democratic and adaptive institutions, private and public,\" management expert Tom Peters wrote in 1993 in the foreword to Bennis' An Invented Life: Reflections on Leadership and Change.Management expert James O'Toole, in a 2005 issue of Compass, published by Harvard University's John F. Kennedy School of Government, claimed that Bennis developed \"an interest in a then-nonexistent field that he would ultimately make his own -- leadership -- with the publication of his 'Revisionist Theory of Leadership' in Harvard Business Review in 1961.\" O'Toole observed that Bennis challenged the prevailing wisdom by showing that humanistic, democratic-style leaders are better suited to dealing with the complexity and change that characterize the leadership environment.",
-    "description": null,
+    "bio": "Warren Gamaliel Bennis (March 8, 1925 – July 31, 2014) was an American scholar, organizational consultant and author, widely regarded as a pioneer of the contemporary field of Leadership studies. Bennis was University Professor and Distinguished Professor of Business Administration and Founding Chairman of The Leadership Institute at the University of Southern California.",
+    "description": "American scholar",
     "link": "https://en.wikipedia.org/wiki/Warren_Bennis"
+  },
+  {
+    "_id": "Yx-sWEKwJ",
+    "name": "Ken Venturi",
+    "bio": "Kenneth Paul Venturi (May 15, 1931 – May 17, 2013) was an American professional golfer and golf broadcaster. In a career shortened by injuries, he won 14 events on the PGA Tour including a major, the U.S. Open in 1964. Shortly before his death in 2013, Venturi was inducted into the World Golf Hall of Fame.",
+    "description": "American golfer",
+    "link": "https://en.wikipedia.org/wiki/Ken_Venturi"
+  },
+  {
+    "_id": "G_7wyJ3-4L",
+    "name": "Bradley Whitford",
+    "bio": "Bradley Whitford (born October 10, 1959) is an American actor and producer. He is best known for his portrayal of White House Deputy Chief of Staff Josh Lyman in the NBC television political drama The West Wing (1999–2006), for which he was nominated for three consecutive Primetime Emmy Awards from 2001 to 2003, winning in 2001. This role also earned him three consecutive Golden Globe Award nominations.",
+    "description": "American actor",
+    "link": "https://en.wikipedia.org/wiki/Bradley_Whitford"
+  },
+  {
+    "_id": "76ISAUD3P5",
+    "name": "14th Dalai Lama",
+    "bio": "The 14th Dalai Lama (né Lhamo Thondup), known as Gyalwa Rinpoche to the Tibetan people, is the current Dalai Lama, the highest spiritual leader and former head of state of Tibet. Born on 6 July 1935, or in the Tibetan calendar, in the Wood-Pig Year, 5th month, 5th day. He is considered a living Bodhisattva; specifically, an emanation of Avalokiteśvara in Sanskrit and Chenrezig in Tibetan.",
+    "description": "Current foremost spiritual leader of Tibet",
+    "link": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+  },
+  {
+    "_id": "1yoUjh_aW1",
+    "name": "Pauline Kael",
+    "bio": "Pauline Kael (June 19, 1919 – September 3, 2001) was an American film critic who wrote for The New Yorker magazine from 1968 to 1991. Known for her \"witty, biting, highly opinionated and sharply focused\" reviews, Kael's opinions often ran contrary to those of her contemporaries. One of the most influential American film critics of her era, she left a lasting impression on the art form.",
+    "description": "American film critic",
+    "link": "https://en.wikipedia.org/wiki/Pauline_Kael"
+  },
+  {
+    "_id": "E30-ioIvlB",
+    "name": "Kyle Chandler",
+    "bio": "Kyle Martin Chandler (born September 17, 1965) is an American actor. Making his screen acting debut in a 1988 television film, Quiet Victory: The Charlie Wedemeyer Story, Chandler's first regular television role was in the ABC drama Homefront (1991–93). This was followed by the lead role of Gary Hobson in the CBS series Early Edition (1996–2000), for which he won a Saturn Award for Best Actor on Television.",
+    "description": "American actor",
+    "link": "https://en.wikipedia.org/wiki/Kyle_Chandler"
   }
 ]

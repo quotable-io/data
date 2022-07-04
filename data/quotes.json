@@ -12504,11 +12504,6 @@
     "tags": ["business"]
   },
   {
-    "_id": "VNC6KPzuWhF",
-    "content": "Do more than is required. What is the distance between someone who achieves their goals consistently and those who spend their lives and careers merely following? The extra mile.",
-    "tags": ["business"]
-  },
-  {
     "_id": "NaR2ruD4l68",
     "author": "Robert Kiyosaki",
     "content": "When times are bad is when the real entrepreneurs emerge.",
@@ -12539,11 +12534,6 @@
     "tags": ["business"]
   },
   {
-    "_id": "ukvUzSTHFaG",
-    "content": "When in doubt, mumble; when in trouble, delegate; when in charge, ponder.",
-    "tags": ["business"]
-  },
-  {
     "_id": "CJ6mZCgpkM7",
     "author": "Robin Williams",
     "content": "Carpe per diem - seize the check.",
@@ -12560,5 +12550,137 @@
     "author": "Warren Bennis",
     "content": "Trust is the lubrication that makes it possible for organizations to work.",
     "tags": ["business"]
+  },
+  {
+    "_id": "EqK6-7vPt",
+    "author": "Elon Musk",
+    "content": "When something is important enough, you do it even if the odds are not in your favor.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "ubikx_KRCL",
+    "author": "Jerome",
+    "content": "Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "trKnEw-ZVY",
+    "author": "Ralph Marston",
+    "content": "What you do today can improve all your tomorrows.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "f6PUk-AOBm",
+    "author": "H. G. Wells",
+    "content": "If you fell down yesterday, stand up today.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "XH8yFMgx_o",
+    "author": "George S. Patton",
+    "content": "A good plan violently executed now is better than a perfect plan executed next week.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "VdDvOzQUZ3",
+    "author": "Ken Venturi",
+    "content": "I don't believe you have to be better than everybody else. I believe you have to be better than you ever thought you could be.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "l4SIHYrQpX",
+    "author": "Johann Wolfgang von Goethe",
+    "content": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "_WfHG0pIS0",
+    "author": "W. Clement Stone",
+    "content": "Aim for the moon. If you miss, you may hit a star.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "DNNEwxiooA",
+    "author": "Bradley Whitford",
+    "content": "Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "pbtIgsCUIU",
+    "author": "Sam Levenson",
+    "content": "Don't watch the clock; do what it does. Keep going.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "1gJ03696_R",
+    "author": "Benjamin Disraeli",
+    "content": "Never complain and never explain.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "8NJSVJipgn",
+    "author": "Robert Schuller",
+    "content": "Problems are not stop signs, they are guidelines.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "FGh99twyFY",
+    "author": "John F. Kennedy",
+    "content": "Things do not happen. Things are made to happen.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "JhTpAcTaMx",
+    "author": "Horace",
+    "content": "Don't think, just do.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "OnbQeVfYGpZ",
+    "author": "Amelia Earhart",
+    "content": "The most effective way to do it, is to do it.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "IiQQfTSSTyc",
+    "author": "Pauline Kael",
+    "content": "Where there is a will, there is a way. If there is a chance in a million that you can do something, anything, to keep what you want from ending, do it. Pry the door open or, if need be, wedge your foot in that door and keep it open.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "nYm8bumyc0E",
+    "author": "Babe Ruth",
+    "content": "You just can't beat the person who never gives up.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "udbaSw4hIey",
+    "author": "Harriet Beecher Stowe",
+    "content": "Never give up, for that is just the place and time that the tide will turn.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "qKv9nrdgS0M",
+    "author": "Kyle Chandler",
+    "content": "Opportunity does not knock, it presents itself when you beat down the door.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "1mFyxKntETm",
+    "author": "Ayn Rand",
+    "content": "A creative man is motivated by the desire to achieve, not by the desire to beat others.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "GtLeN2MCTvH",
+    "author": "Nikos Kazantzakis",
+    "content": "In order to succeed, we must first believe that we can.",
+    "tags": ["motivational"]
+  },
+  {
+    "_id": "eAwQS0LKTIk",
+    "author": "William Blake",
+    "content": "No bird soars too high if he soars with his own wings.",
+    "tags": ["motivational"]
   }
 ]
