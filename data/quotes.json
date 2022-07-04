@@ -11698,5 +11698,593 @@
     "author": "Alan Watts",
     "content": "Saints need sinners.",
     "tags": []
+  },
+  {
+    "_id": "JIk3cbQ8s",
+    "author": "Michael Jordan",
+    "content": "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "zqhbUPP1Cl",
+    "author": "Hunter S. Thompson",
+    "content": "When the going gets weird, the weird turn pro.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "JRmne2RXYn",
+    "author": "Henry David Thoreau",
+    "content": "Many men go fishing all of their lives without knowing that it is not fish they are after.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "0Ny0rPtnM3",
+    "author": "Vince Lombardi",
+    "content": "Winners never quit and quitters never win.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "dfSqqmvUQh",
+    "author": "Gary Lineker",
+    "content": "Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the Germans always win.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "l0LfTgApB3",
+    "author": "Babe Ruth",
+    "content": "The way a team plays as a whole determines its success. You may have the greatest bunch of individual stars in the world, but if they don't play together, the club won't be worth a dime.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "wNd1PnDiIN",
+    "author": "Bob Feller",
+    "content": "Every day is a new opportunity. You can build on yesterday's success or put its failures behind and start over again. That's the way life is, with a new game every day, and that's the way baseball is.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "WEpfyvSqg8",
+    "author": "Rodney Dangerfield",
+    "content": "I went to a fight the other night, and a hockey game broke out.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "9aunKqSWDu",
+    "author": "Dan Gable",
+    "content": "Gold medals aren't really made of gold. They're made of sweat, determination, and a hard-to-find alloy called guts.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "-fGobZrnsR",
+    "author": "Bobby Unser",
+    "content": "Success is where preparation and opportunity meet.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "nAOVUhK6RJ",
+    "author": "Kareem Abdul-Jabbar",
+    "content": "You can't win unless you learn how to lose.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "8BDM_9x_Kv",
+    "author": "Mark Twain",
+    "content": "Golf is a good walk spoiled.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Rqv9duD-Lc",
+    "author": "Barry Switzer",
+    "content": "Some people are born on third base and go through life thinking they hit a triple.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "vtzyn3LKIA",
+    "author": "Wayne Gretzky",
+    "content": "A good hockey player plays where the puck is. A great hockey player plays where the puck is going to be.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "fwMKi2Q0Pk",
+    "author": "Michael Phelps",
+    "content": "You can't put a limit on anything. The more you dream, the farther you get.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "v88YjiHVIp",
+    "author": "Mia Hamm",
+    "content": "I am building a fire, and everyday I train, I add more fuel. At just the right moment, I light the match.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Wp2A_oOWNEq",
+    "author": "Muhammad Ali",
+    "content": "It's just a job. Grass grows, birds fly, waves pound the sand. I beat people up.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "vZ-5DQPCJag",
+    "author": "George Orwell",
+    "content": "Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "x-0qEVIZ66n",
+    "author": "Eric Liddell",
+    "content": "God made me fast. And when I run, I feel His pleasure.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "lpxXplIA4ie",
+    "author": "Yogi Berra",
+    "content": "Half the lies they tell about me aren't true.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "YKa0tKUpBad",
+    "author": "Mike Tyson",
+    "content": "I want to rip out his heart and feed it to Lennox Lewis. I want to kill people. I want to rip their stomachs out and eat their children.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "eF07T22v0Te",
+    "author": "P. G. Wodehouse",
+    "content": "To find a man's true character, play golf with him.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "r7qJ-YKIq2e",
+    "author": "Earl Monroe",
+    "content": "Just be patient. Let the game come to you. Don't rush. Be quick, but don't hurry.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Gtt0T3mfPbx",
+    "author": "Billie Jean King",
+    "content": "Champions keep playing until they get it right.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "kGOLUWVwYYQ",
+    "author": "Bob Hope",
+    "content": "If you watch a game, it's fun. If you play it, it's recreation. If you work at it, it's golf.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "bcHXRb64gZH",
+    "author": "Heywood Broun",
+    "content": "Sports do not build character. They reveal it.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "6VhxXtcVC75",
+    "author": "Dale Earnhardt",
+    "content": "You win some, lose some, and wreck some.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "_rEPkuDXaWo",
+    "author": "Casey Stengel",
+    "content": "Finding good players is easy. Getting them to play as a team is another story.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "mdEIpz4Cam7",
+    "author": "Earl Warren",
+    "content": "I always turn to the sports pages first, which records people's accomplishments. The front page has nothing but man's failures.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Hpo_qh-q76A",
+    "author": "Reggie Jackson (basketball, born 1990)",
+    "content": "Fans don't boo nobodies.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "MNoB9t3dfeS",
+    "author": "Shaquille O'Neal",
+    "content": "I'm tired of hearing about money, money, money, money, money. I just want to play the game, drink Pepsi, wear Reebok.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "scBvf0Y5W3B",
+    "author": "Ian Botham",
+    "content": "To me, it doesn't matter how good you are. Sport is all about playing and competing. Whatever you do in cricket and in sport, enjoy it, be positive and try to win.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "NIMf1RxZS1N",
+    "author": "Knute Rockne",
+    "content": "One man practicing sportsmanship is far better than a hundred teaching it.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "3KGpfidF22D",
+    "author": "William James",
+    "content": "Most people never run far enough on their first wind to find out they've got a second.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "o43iIFT9Ek9",
+    "author": "Herbert Hoover",
+    "content": "Fishing is much more than fish. It is the great occasion when we may return to the fine simplicity of our forefathers.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "B1GeU8JmTeh",
+    "author": "Paul Harvey",
+    "content": "Golf is a game in which you yell 'fore,' shoot six, and write down five.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "stVsKoLjN4R",
+    "author": "Dean Martin",
+    "content": "If you drink don't drive. Don't even putt.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "3SkPSDa153V",
+    "author": "Walt Whitman",
+    "content": "I see great things in baseball. It's our game - the American game.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "9YVi056a7B4",
+    "author": "Phil Jackson",
+    "content": "Approach the game with no preset agendas and you'll probably come away surprised at your overall efforts.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "2wnTElJ9STU",
+    "author": "Hank Aaron",
+    "content": "My motto was always to keep swinging. Whether I was in a slump or feeling badly or having trouble off the field, the only thing to do was keep swinging.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Jn6Cv7HK7I5",
+    "author": "George Brett",
+    "content": "If a tie is like kissing your sister, losing is like kissing you grandmother with her teeth out.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "J471lzY_ZWf",
+    "author": "Jim Bouton",
+    "content": "You spend a good piece of your life gripping a baseball and in the end it turns out that it was the other way around all the time.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "AxNf6c-G_KI",
+    "author": "Rogers Hornsby",
+    "content": "People ask me what I do in winter when there's no baseball. I'll tell you what I do. I stare out the window and wait for spring.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "s8kVXadQ9AI",
+    "author": "John McEnroe",
+    "content": "I'll let the racket do the talking.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "T_3ho2xNMqB",
+    "author": "Ernest Hemingway",
+    "content": "The game of golf would lose a great deal if croquet mallets and billiard cues were allowed on the putting green.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "81hjl4B9wx2",
+    "author": "Ernie Banks",
+    "content": "The only way to prove that you're a good sport is to lose.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "dGvvA2-dSMZ",
+    "author": "Jack Benny",
+    "content": "Give me golf clubs, fresh air and a beautiful partner, and you can keep the clubs and the fresh air.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "jySk_h_ynAw",
+    "author": "H. G. Wells",
+    "content": "The uglier a man's legs are, the better he plays golf - it's almost a law.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "UgXBo_UqVyz",
+    "author": "Harry Vardon",
+    "content": "Don't play too much golf. Two rounds a day are plenty.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "5MwobNprEw8",
+    "author": "Tiger Woods",
+    "content": "Hockey is a sport for white men. Basketball is a sport for black men. Golf is a sport for white men dressed like black pimps.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "xMuXkWKuZ9b",
+    "author": "Dan Quayle",
+    "content": "Bobby Knight told me this: 'There is nothing that a good defense cannot beat a better offense.' In other words a good offense wins.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "0p8bgUAkaWj",
+    "author": "Sandy Koufax",
+    "content": "Pitching is the art of instilling fear.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "H4_sbM6ssN1",
+    "author": "Jack Lemmon",
+    "content": "If you think it's hard to meet new people, try picking up the wrong golf ball.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "x_x-nqVRXRv",
+    "author": "Gerald Ford",
+    "content": "I know I am getting better at golf because I am hitting fewer spectators.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "I4MksjS5zey",
+    "author": "Carl Lewis",
+    "content": "Life is about timing.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "dZB6Wttm0Yq",
+    "author": "Pete Rose",
+    "content": "It's a round ball and a round bat, and you got to hit it square.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "dyFvyZeta5R",
+    "author": "Will Rogers",
+    "content": "I guess there is nothing that will get your mind off everything like golf. I have never been depressed enough to take up the game, but they say you get so sore at yourself you forget to hate your enemies.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "R9vpk3umowP",
+    "author": "Jesse Owens",
+    "content": "A lifetime of training for just ten seconds.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "gZMl2CrQvRQ",
+    "author": "Ted Williams",
+    "content": "Baseball is the only field of endeavor where a man can succeed three times out of ten and be considered a good performer.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "uhn8pHqZf_5",
+    "author": "Blaise Pascal",
+    "content": "Thus so wretched is man that he would weary even without any cause for weariness... and so frivolous is he that, though full of a thousand reasons for weariness, the least thing, such as playing billiards or hitting a ball, is sufficient enough to amuse him.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "kBlWOFUr_qk",
+    "author": "Tom Landry",
+    "content": "Football is an incredible game. Sometimes it's so incredible, it's unbelievable.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "lFS9xImzWwf",
+    "author": "Wilt Chamberlain",
+    "content": "Nobody roots for Goliath.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "GSgVrr4d_i2",
+    "author": "William Wordsworth",
+    "content": "Golf is a day spent in a round of strenuous idleness.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "UAQGdN3fGeR",
+    "author": "Ben Hogan",
+    "content": "Reverse every natural instinct and do the opposite of what you are inclined to do, and you will probably come very close to having a perfect golf swing.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "4FUcFghvgS4",
+    "author": "Michael Jordan",
+    "content": "Just play. Have fun. Enjoy the game.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "3ixA8z6QAIt",
+    "author": "Ambrose Bierce",
+    "content": "Academe, n.: An ancient school where morality and philosophy were taught. Academy, n.: A modern school where football is taught.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "xYHasPkPjV7",
+    "author": "Robert Griffin III",
+    "content": "Football is football and talent is talent. But the mindset of your team makes all the difference.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "O_XWl_SvaHh",
+    "author": "Bill Veeck",
+    "content": "Baseball is almost the only orderly thing in a very unorderly world. If you get three strikes, even the best lawyer in the world can't get you off.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "-5LundE5jXD",
+    "author": "Erma Bombeck",
+    "content": "If a man watches three football games in a row, he should be declared legally dead.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "bACGnullkNi",
+    "author": "John Leonard (critic)",
+    "content": "Baseball happens to be a game of cumulative tension but football, basketball and hockey are played with hand grenades and machine guns.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "ch-0pti9X6U",
+    "author": "Joe Adcock",
+    "content": "Trying to sneak a fastball past Hank Aaron is like trying to sneak the sunrise past a rooster.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "MEanpxJ5eJZ",
+    "author": "Warren Spahn",
+    "content": "Hitting is timing. Pitching is upsetting timing.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "MsGmNTCtAXd",
+    "author": "Mike Singletary (basketball)",
+    "content": "Do you know what my favorite part of the game is? The opportunity to play.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "tLplJh_Eshv",
+    "author": "Joe E. Lewis",
+    "content": "I play in the low 80s. If it's any hotter than that, I won't play.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "vzPsp90f3XG",
+    "author": "Robert Frost",
+    "content": "I'd just as soon play tennis with the net down.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "zdeCx--dN1m",
+    "author": "Vince Lombardi",
+    "content": "Show me a good loser, and I'll show you a loser.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "bGXbeCDXf-L",
+    "author": "Roger Kahn",
+    "content": "Football is violence and cold weather and sex and college rye.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "lTm3ZNHDrh7",
+    "author": "Bob Knight",
+    "content": "You don't play against opponents, you play against the game of basketball.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "1B6gSfHV5Lx",
+    "author": "Martin Mull",
+    "content": "The trouble with jogging is that the ice falls out of your glass.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "KZmPqOjzO5u",
+    "author": "Joseph Chilton Pearce",
+    "content": "Play is the only way the highest intelligence of humankind can unfold.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "us3AODIDLgz",
+    "author": "Billy Graham",
+    "content": "The only time my prayers are never answered is on the golf course.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "gUYV-XJG60p",
+    "author": "Woodrow Wilson",
+    "content": "Golf is a game in which one endeavors to control a ball with implements ill adapted for the purpose.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Dx51eEexWiv",
+    "author": "Jack Nicklaus",
+    "content": "He's going to be around a long, long time, if his body holds up. That's always a concern with a lot of players because of how much they play. A lot of guys can't handle it. But it looks like he can.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "t8VkQVQcsKT",
+    "author": "Lee Trevino",
+    "content": "You can make a lot of money in this game. Just ask my ex-wives. Both of them are so rich that neither of their husbands work.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "l1g_brfDMZy",
+    "author": "Billie Jean King",
+    "content": "Tennis is a perfect combination of violent action taking place in an atmosphere of total tranquillity.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "fKGk2bEwuY_",
+    "author": "George Deukmejian",
+    "content": "The difference in golf and government is that in golf you can't improve your lie.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Yul4uqMwfA1",
+    "author": "Arnold Palmer",
+    "content": "What other people may find in poetry or art museums, I find in the flight of a good drive.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "yaMFSwf1KwS",
+    "author": "Gordie Howe",
+    "content": "All hockey players are bilingual. They know English and profanity.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "RhupuP-wWrJ",
+    "author": "Bob Lemon",
+    "content": "The two most important things in life are good friends and a strong bullpen.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "rwKaKmmgQy3",
+    "author": "Thierry Henry",
+    "content": "Sometimes in football you have to score goals.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "HDnmBjzqKWC",
+    "author": "Sasha Cohen",
+    "content": "I'm a competitive person and I love the challenge of mastering new things.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "Nr6_kltWU8x",
+    "author": "Hugo Black",
+    "content": "When I was 40, my doctor advised me that a man in his 40s shouldn't play tennis. I heeded his advice carefully and could hardly wait until I reached 50 to start again.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "S78ad3jDcyA",
+    "author": "John Madden",
+    "content": "The fewer rules a coach has, the fewer rules there are for players to break.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "DOBzyzsPjdw",
+    "author": "Grantland Rice",
+    "content": "Eighteen holes of match play will teach you more about your foe than 18 years of dealing with him across a desk.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "xXpAcjaPwvO",
+    "author": "Ty Cobb",
+    "content": "Every great batter works on the theory that the pitcher is more afraid of him than he is of the pitcher.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "BmwkwcTsnst",
+    "author": "Joyce Carol Oates",
+    "content": "Boxing is a celebration of the lost religion of masculinity all the more trenchant for its being lost.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "8LGN3gtwInp",
+    "author": "Jim Bishop",
+    "content": "Golf is played by twenty million mature American men whose wives think they are out having fun.",
+    "tags": ["sports", "athletics", "competition"]
+  },
+  {
+    "_id": "jfD5SMoh-eC",
+    "author": "Greg Norman",
+    "content": "What's a good tournament for him? Winning it. He's good enough.",
+    "tags": ["sports", "athletics", "competition"]
   }
 ]
