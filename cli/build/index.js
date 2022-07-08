@@ -73,14 +73,16 @@ run(async () => {
     return { ...result, [COLLECTION]: objectsWithTimeStamp }
   }, {})
 
-  const info = {
-    version: pkg.version,
-    count: {
-      quotes: db.quotes.length,
-      authors: db.authors.length,
-      tags: db.tags.length,
+  const info = [
+    {
+      version: pkg.version,
+      count: {
+        quotes: db.quotes.length,
+        authors: db.authors.length,
+        tags: db.tags.length,
+      },
     },
-  }
+  ]
   // Save the updated JSON to files in the `dist` directory.
   writeJSONFiles(DEST, { ...data, info })
 })
