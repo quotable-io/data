@@ -219,7 +219,7 @@
     "_id": "JqusXYQEGNPC",
     "content": "Do you want to know who you are? Don't ask. Act! Action will delineate and define you.",
     "author": "Thomas Jefferson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "GEqMoChoXn",
@@ -357,7 +357,7 @@
     "_id": "tLHlKytgFRyW",
     "content": "It's so simple to be wise. Just think of something stupid to say and then don't say it.",
     "author": "Sam Levenson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "MWAepUPgkZZQ",
@@ -441,7 +441,7 @@
     "_id": "wftK-3DERCdh",
     "content": "Correction does much, but encouragement does more.",
     "author": "Johann Wolfgang von Goethe",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "kKAMmRhnyps",
@@ -477,7 +477,7 @@
     "_id": "2iQU_-0nv8x",
     "content": "Our strength grows out of our weaknesses.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","power-quotes"]
   },
   {
     "_id": "5UaK7cijxqOE",
@@ -489,31 +489,31 @@
     "_id": "akTyDRb1gL8x",
     "content": "Things that were hard to bear are sweet to remember.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "je7UytrRlH-0",
     "content": "The supreme art of war is to subdue the enemy without fighting.",
     "author": "Sun Tzu",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "9elExPH3DyRD",
     "content": "The most formidable weapon against errors of every kind is reason.",
     "author": "Thomas Paine",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "EpDrsWX_c6li",
     "content": "When people are like each other they tend to like each other.",
     "author": "Tony Robbins",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "drHiHnrlHdPg",
     "content": "You have enemies? Good. That means you've stood up for something, sometime in your life.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "-4WQ_JwFWI",
@@ -537,43 +537,43 @@
     "_id": "WsswXPIbtq1p",
     "content": "To hell with circumstances, I create opportunities.",
     "author": "Bruce Lee",
-    "tags": ["famous-quotes"]
+    "tags": ["famous-quotes","inspirational"]
   },
   {
     "_id": "HyGs4595-FfY",
     "content": "True happiness means forging a strong spirit that is undefeated, no matter how trying our circumstances.",
     "author": "Daisaku Ikeda",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "gO2rEcTrwLo7",
     "content": "When fate hands us a lemon, let's try to make lemonade.",
     "author": "Dale Carnegie",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "RXBrRJcq1Cih",
     "content": "One must be fond of people and trust them if one is not to make a mess of life.",
     "author": "E. M. Forster",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "UGTlczrORBij",
     "content": "Nobody made a greater mistake than he who did nothing because he could do only a little.",
     "author": "Edmund Burke",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "oJ0RtLuNOQM",
     "content": "All serious daring starts from within.",
     "author": "Harriet Beecher Stowe",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "e1la14gLuob",
     "content": "Trouble is only opportunity in work clothes.",
     "author": "Henry J. Kaiser",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "nDXa5iqd6KKD",
@@ -585,37 +585,37 @@
     "_id": "AugfMwbMNbp",
     "content": "Love is the flower you've got to let grow.",
     "author": "John Lennon",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "cldBH7aZAkC_",
     "content": "Quality is never an accident; it is always the result of intelligent effort.",
     "author": "John Ruskin",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "n1CKSLhX-iSp",
     "content": "All that is necessary is to accept the impossible, do without the indispensable, and bear the intolerable.",
     "author": "Kathleen Norris",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "LJdZayGhYgjp",
     "content": "Everything that exists is in a manner the seed of that which will be.",
     "author": "Marcus Aurelius",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "_tNDPuX5N3v5",
     "content": "Waste no more time arguing about what a good man should be. Be one.",
     "author": "Marcus Aurelius",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","wisdom"]
   },
   {
     "_id": "0FJtHaraIRKe",
     "content": "We shall never know all the good that a simple smile can do.",
     "author": "Mother Teresa",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness","character"]
   },
   {
     "_id": "_XFh528V3dn3",
@@ -627,19 +627,19 @@
     "_id": "y-o6i7QcoSA7",
     "content": "The best way to pay for a lovely moment is to enjoy it.",
     "author": "Richard Bach",
-    "tags": ["famous-quotes"]
+    "tags": ["life","happiness"]
   },
   {
     "_id": "w4QwG7e8hNr7",
     "content": "The only Zen you find on the tops of mountains is the Zen you bring up there.",
     "author": "Robert M. Pirsig",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "90jDVXJWKu8z",
     "content": "Everyone has been made for some particular work, and the desire for that work has been put in every heart.",
     "author": "Rumi",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "RrdntXFj8cLK",
@@ -651,25 +651,25 @@
     "_id": "-DUavsjRcctX",
     "content": "Can you imagine what I would do if I could do all I can?",
     "author": "Sun Tzu",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "1P5mO2pnBwF",
     "content": "Life is the flower for which love is the honey.",
     "author": "Victor Hugo",
-    "tags": ["famous-quotes"]
+    "tags": ["love","life"]
   },
   {
     "_id": "jmrSY3X4PQOW",
     "content": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "oPdH3snIjkes",
     "content": "Never, never, never give up.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "fgKMT62j8",
@@ -735,13 +735,13 @@
     "_id": "QGY0TiFjpdj2",
     "content": "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.",
     "author": "Audre Lorde",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "XpjF4PovtQM7",
     "content": "Take no thought of who is right or wrong or who is better than. Be not for or against.",
     "author": "Bruce Lee",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "CrSk004mchGX",
@@ -759,7 +759,7 @@
     "_id": "g1GZtzlspywZ",
     "content": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
     "author": "Dale Carnegie",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "51SwnjMnK0Qy",
@@ -771,25 +771,25 @@
     "_id": "lO_ELfmBRTMq",
     "content": "You must do the things you think you cannot do.",
     "author": "Eleanor Roosevelt",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "uahnKaDQw2Lw",
     "content": "Three things in human life are important. The first is to be kind. The second is to be kind. The third is to be kind.",
     "author": "Henry James",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "PZj6l3xlpYAa",
     "content": "Be less curious about people and more curious about ideas.",
     "author": "Marie Curie",
-    "tags": ["famous-quotes"]
+    "tags": ["success"]
   },
   {
     "_id": "9gCEJkS5uaRS",
     "content": "Happiness is as a butterfly which, when pursued, is always beyond our grasp, but which if you will sit down quietly, may alight upon you.",
     "author": "Nathaniel Hawthorne",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "bbX2GibPCDjd",
@@ -801,13 +801,13 @@
     "_id": "pnmUUNjfmcx",
     "content": "Minds are like parachutes. They only function when open.",
     "author": "Thomas Dewar",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "GSf1sEoELew-",
     "content": "Meditation is the dissolution of thoughts in eternal awareness or Pure consciousness without objectification, knowing without thinking, merging finitude in infinity.",
     "author": "Voltaire",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "fvhJ3_WEb1j3",
@@ -879,31 +879,31 @@
     "_id": "1OIt8Szmjqjl",
     "content": "Speak when you are angry, and you will make the best speech you will ever regret.",
     "author": "Ambrose Bierce",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","character"]
   },
   {
     "_id": "oJh2j0vHlQs0",
     "content": "It all depends on how we look at things, and not how they are in themselves.",
     "author": "Carl Jung",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "L9BkV7RFEXvG",
     "content": "Happiness does not come about only due to external circumstances; it mainly derives from inner attitudes.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "d76RCKoNh69P",
     "content": "Be your own hero, it's cheaper than a movie ticket.",
     "author": "Doug Horton",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "lnt4f9WI2nt",
     "content": "If a man does his best, what else is there?",
     "author": "George S. Patton",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "TcJ1vf7DaqhU",
@@ -915,7 +915,7 @@
     "_id": "Q2QFxXXlK07Q",
     "content": "You won't skid if you stay in a rut.",
     "author": "Kin Hubbard",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "DmfzZnpdPbq",
@@ -933,25 +933,25 @@
     "_id": "wdTamcKIF6Oc",
     "content": "All achievements, all earned riches, have their beginning in an idea.",
     "author": "Napoleon Hill",
-    "tags": ["famous-quotes"]
+    "tags": ["success"]
   },
   {
     "_id": "82Ucdsd1amiC",
     "content": "Anybody can make history. Only a great man can write it.",
     "author": "Oscar Wilde",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "GQcdTjZXgXZI",
     "content": "Knowledge has three degrees: opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition.",
     "author": "Plotinus",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "bMuAwqccHuSw",
     "content": "What the caterpillar calls the end of the world, the master calls a butterfly.",
     "author": "Richard Bach",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "tfo24zWoAJ",
@@ -1035,7 +1035,7 @@
     "_id": "8l0ws1Tmixsj",
     "content": "The first step to getting the things you want out of life is this: decide what you want.",
     "author": "Ben Stein",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "5LtX2rAr-8LB",
@@ -1065,7 +1065,7 @@
     "_id": "nVjYUNmsttfJ",
     "content": "Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so.",
     "author": "Douglas Adams",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "u5VbhYCVo5Jz",
@@ -1077,25 +1077,25 @@
     "_id": "CPlCKbTp31o",
     "content": "Sadness flies away on the wings of time.",
     "author": "Jean de La Fontaine",
-    "tags": ["famous-quotes"]
+    "tags": ["time"]
   },
   {
     "_id": "77ZqNwl8aoR4",
     "content": "There are two kinds of failures: those who thought and never did, and those who did and never thought.",
     "author": "Laurence J. Peter",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "_6z2BhrSP8hw",
     "content": "Do not be too timid and squeamish about your reactions. All life is an experiment. The more experiments you make the better.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","life"]
   },
   {
     "_id": "a_MqBnMhXblP",
     "content": "Only those who dare to fail greatly can ever achieve greatly.",
     "author": "Robert F. Kennedy",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "ohlZ513hzbVN",
@@ -1107,7 +1107,7 @@
     "_id": "soeD1o2PIWwM",
     "content": "Independence is happiness.",
     "author": "Susan B. Anthony",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "PYnVkG4UQGH7",
@@ -1119,7 +1119,7 @@
     "_id": "lDffUvkJEnv0",
     "content": "What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.",
     "author": "Wayne Dyer",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "ZsD4Hq1Z5",
@@ -1161,7 +1161,7 @@
     "_id": "1crYPFXZKUuv",
     "content": "Blessed is the man who expects nothing, for he shall never be disappointed.",
     "author": "Alexander Pope",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "KxOMFqaceWB8",
@@ -1173,19 +1173,19 @@
     "_id": "-LwlAMmYmOG",
     "content": "Kind words do not cost much. Yet they accomplish much.",
     "author": "Blaise Pascal",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "QGYxfoed_tdc",
     "content": "You can only grow if you're willing to feel awkward and uncomfortable when you try something new.",
     "author": "Brian Tracy",
-    "tags": ["famous-quotes"]
+    "tags": ["science"]
   },
   {
     "_id": "C0UBtodkJKfk",
     "content": "Don't leave a stone unturned. It's always something, to know you have done the most you could.",
     "author": "Charles Dickens",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "ElHdPHLQGGGK",
@@ -1209,7 +1209,7 @@
     "_id": "u5Fb0THaH9d",
     "content": "Reality does not conform to the ideal but confirms it.",
     "author": "Gustave Flaubert",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "4eJZzWraMFLH",
@@ -1221,19 +1221,19 @@
     "_id": "dFqMRKpguUJz",
     "content": "A thing well said will be wit in all languages.",
     "author": "John Dryden",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "vBHnDMTdEgHT",
     "content": "I have an everyday religion that works for me. Love yourself first, and everything else falls into line.",
     "author": "Lucille Ball",
-    "tags": ["famous-quotes"]
+    "tags": ["love","life"]
   },
   {
     "_id": "JQ2qX84KBJdS",
     "content": "Decision is a risk rooted in the courage of being free.",
     "author": "Paul Tillich",
-    "tags": ["famous-quotes"]
+    "tags": ["freedom"]
   },
   {
     "_id": "dMJ9b4iwZ0Lj",
@@ -1245,13 +1245,13 @@
     "_id": "z-hDjBf4spF-",
     "content": "Make the most of yourself, for that is all there is of you.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "TEgn6Rf8GdtQ",
     "content": "Peace is not something you wish for. It's something you make, something you do, something you are, and something you give away.",
     "author": "Robert Fulghum",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "wxbHjx784GSB",
@@ -1293,7 +1293,7 @@
     "_id": "xD83G0bc53Gp",
     "content": "All men have a sweetness in their life. That is what helps them go on. It is towards that they turn when they feel too worn out.",
     "author": "Albert Camus",
-    "tags": ["famous-quotes"]
+    "tags": ["character"]
   },
   {
     "_id": "SDIuXTOSqNz-",
@@ -1305,25 +1305,25 @@
     "_id": "M_3sjCS_e7k2",
     "content": "Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more",
     "author": "Tony Robbins",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "vBKEzNMvWrF",
     "content": "Whatever we expect with confidence becomes our own self-fulfilling prophecy.",
     "author": "Brian Tracy",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "QLHIDLCkdjB",
     "content": "The winds and waves are always on the side of the ablest navigators.",
     "author": "Edward Gibbon",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "t7STDz8m6QIp",
     "content": "The wisest men follow their own direction.",
     "author": "Euripides",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "mfGS-lWf2bFD",
@@ -1341,7 +1341,7 @@
     "_id": "5gFkFLdevhlL",
     "content": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
     "author": "Marcus Aurelius",
-    "tags": ["famous-quotes"]
+    "tags": ["life","happiness"]
   },
   {
     "_id": "cuSc59CHihhm",
@@ -1353,13 +1353,13 @@
     "_id": "dyPLKxIFG-Sq",
     "content": "The only journey is the one within.",
     "author": "Rainer Maria Rilke",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "gcVt4O0JbKIm",
     "content": "Good thoughts are no better than good dreams, unless they be executed.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["success"]
   },
   {
     "_id": "jwPiczAgtQbq",
@@ -1371,19 +1371,19 @@
     "_id": "YTqaIDVD0fX3",
     "content": "The way we communicate with others and with ourselves ultimately determines the quality of our lives.",
     "author": "Tony Robbins",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "ukNRwb5z5mVj",
     "content": "When you discover your mission, you will feel its demand. It will fill you with enthusiasm and a burning desire to get to work on it.",
     "author": "W. Clement Stone",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "DyZj6SSzYL1",
     "content": "Be great in act, as you have been in thought.",
     "author": "William Shakespeare",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "FcLA4jk7UL",
@@ -1449,7 +1449,7 @@
     "_id": "XnnivKkhRfW2",
     "content": "We all live with the objective of being happy; our lives are all different and yet the same.",
     "author": "Anne Frank",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness","life"]
   },
   {
     "_id": "nRe-W6vOUe6S",
@@ -1461,31 +1461,31 @@
     "_id": "gBIkD-USj0OV",
     "content": "When deeds and words are in accord, the whole world is transformed.",
     "author": "Zhuang Zhou",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "qx0gYyFteZUo",
     "content": "If you are going to achieve excellence in big things, you develop the habit in little matters. Excellence is not an exception; it is a prevailing attitude.",
     "author": "Colin Powell",
-    "tags": ["famous-quotes"]
+    "tags": ["life","success","inspirational"]
   },
   {
     "_id": "moXX0J8RnNP_",
     "content": "Until you make peace with who you are, you'll never be content with what you have.",
     "author": "Doris Mortman",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "iLP7-hx1ktyO",
     "content": "Do what you can. Want what you have. Be who you are.",
     "author": "Forrest Church",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "3lhr75vrU5Zy",
     "content": "If you think you can, you can. And if you think you can't, you're right.",
     "author": "Henry Ford",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "Ov1F2nueFuMN",
@@ -1503,37 +1503,37 @@
     "_id": "wO1L8EVXZczP",
     "content": "Always be smarter than the people who hire you.",
     "author": "Lena Horne",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","wisdom"]
   },
   {
     "_id": "kKF3mC3YhaoJ",
     "content": "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.",
     "author": "Oprah Winfrey",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "JkGCNZF9ISSN",
     "content": "Most of the shadows of life are caused by standing in our own sunshine.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "r6DBe17GONBz",
     "content": "The mark of your ignorance is the depth of your belief in injustice and tragedy. What the caterpillar calls the end of the world, the Master calls the butterfly.",
     "author": "Richard Bach",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "wzfYBGOk6maE",
     "content": "All perceiving is also thinking, all reasoning is also intuition, all observation is also invention.",
     "author": "Rudolf Arnheim",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "S5Id5SJmu6Jp",
     "content": "No one has a finer command of language than the person who keeps his mouth shut.",
     "author": "Sam Rayburn",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "IXdonGCMtzt_",
@@ -1581,13 +1581,13 @@
     "_id": "vwG4kAanVB",
     "content": "Nothing happens unless first we dream.",
     "author": "Carl Sandburg",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "TVKd28qkqWvg",
     "content": "Every great advance in science has issued from a new audacity of the imagination.",
     "author": "John Dewey",
-    "tags": ["famous-quotes"]
+    "tags": ["science"]
   },
   {
     "_id": "C_EJRDWmZ4vi",
@@ -1599,7 +1599,7 @@
     "_id": "pYR1eRWM7yT4",
     "content": "Know that although in the eternal scheme of things you are small, you are also unique and irreplaceable, as are all your fellow humans everywhere in the world.",
     "author": "Margaret Laurence",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "EwEzvlN_Ijpi",
@@ -1617,13 +1617,13 @@
     "_id": "tWL0-hAa2UMU",
     "content": "Something opens our wings. Something makes boredom and hurt disappear. Someone fills the cup in front of us: We taste only sacredness.",
     "author": "Rumi",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "aIdF_4BNgA1m",
     "content": "We are Divine enough to ask and we are important enough to receive.",
     "author": "Wayne Dyer",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "XbsAE6kO-Q",
@@ -1689,73 +1689,73 @@
     "_id": "uZuwUkUndc8N",
     "content": "A man should look for what is, and not for what he thinks should be.",
     "author": "Albert Einstein",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "PbtLxWdzTk7F",
     "content": "It is easier to live through someone else than to become complete yourself.",
     "author": "Betty Friedan",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "Ik9V0eSmjyPz",
     "content": "To want to be what one can be is purpose in life.",
     "author": "Cynthia Ozick",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "y6jxTpr2WI64",
     "content": "Compassion and happiness are not a sign of weakness but a sign of strength.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","power-quotes"]
   },
   {
     "_id": "RDBJa5AxMPw",
     "content": "Difficulties are things that show a person what they are.",
     "author": "Epictetus",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "vTak3m-m9hN5",
     "content": "Practice yourself, for heaven's sake in little things, and then proceed to greater.",
     "author": "Epictetus",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "h1Eu15cySGn7",
     "content": "A true friend is the most precious of all possessions and the one we take the least thought about acquiring.",
     "author": "François de La Rochefoucauld",
-    "tags": ["famous-quotes"]
+    "tags": ["friendship"]
   },
   {
     "_id": "_NreZWviTlke",
     "content": "Think like a man of action; act like a man of thought.",
     "author": "Henri Bergson",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","wisdom"]
   },
   {
     "_id": "gfmdDXq37eB9",
     "content": "A leader or a man of action in a crisis almost always acts subconsciously and then thinks of the reasons for his action.",
     "author": "Jawaharlal Nehru",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "un7fRc7cVivc",
     "content": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish.",
     "author": "John Adams",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "ihjEyR_tMnyt",
     "content": "Yeah, we all shine on, like the moon, and the stars, and the sun.",
     "author": "John Lennon",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "EhPdlmjZ9ON",
     "content": "Intuition will tell the thinking mind where to look next.",
     "author": "Jonas Salk",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Bq6av0SmGqQG",
@@ -1773,43 +1773,43 @@
     "_id": "JP0Z6kpYem0y",
     "content": "Bodily exercise, when compulsory, does no harm to the body; but knowledge which is acquired under compulsion obtains no hold on the mind.",
     "author": "Plato",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "tpmH-IxHDP-I",
     "content": "Strong people make as many mistakes as weak people. Difference is that strong people admit their mistakes, laugh at them, learn from them. That is how they become strong.",
     "author": "Richard Needham",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "ULj6Dce6aMta",
     "content": "The more light you allow within you, the brighter the world you live in will be.",
     "author": "Shakti Gawain",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "upj50_hSUD20",
     "content": "Numberless are the worlds wonders, but none more wonderful than man.",
     "author": "Sophocles",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "yiGmHFjNwha4",
     "content": "Opportunity is missed by most because it is dressed in overalls and looks like work.",
     "author": "Thomas Edison",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","inspirational"]
   },
   {
     "_id": "S4oebhrV-pQ",
     "content": "Fortune favors the brave.",
     "author": "Virgil",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "_2iWk5KE6Xc5",
     "content": "Anything you really want, you can attain, if you really go after it.",
     "author": "Wayne Dyer",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "NeX-2_82sj",
@@ -1857,25 +1857,25 @@
     "_id": "nv5eWGaFe892",
     "content": "I think somehow, we learn who we really are and then live with that decision.",
     "author": "Eleanor Roosevelt",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "m8q1pMkFz_jV",
     "content": "Wherever a man may happen to turn, whatever a man may undertake, he will always end up by returning to the path which nature has marked out for him.",
     "author": "Johann Wolfgang von Goethe",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "xjRJ2oXvhode",
     "content": "Time you enjoyed wasting was not wasted.",
     "author": "John Lennon",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","time"]
   },
   {
     "_id": "jMrR6OsgunZ",
     "content": "I believe in one thing only, the power of human will.",
     "author": "Joseph Stalin",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "zgyUTRIMAJL",
@@ -1899,7 +1899,7 @@
     "_id": "Mg4_fBhyMCc",
     "content": "The simplest things are often the truest.",
     "author": "Richard Bach",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "X3Sw_D3xm_I0",
@@ -1917,13 +1917,13 @@
     "_id": "hMtpAMSKJ3RJ",
     "content": "The price of greatness is responsibility.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "4eeVnzls6mvl",
     "content": "Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius.",
     "author": "Wolfgang Amadeus Mozart",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "fAyIjkZePx",
@@ -1965,13 +1965,13 @@
     "_id": "UcAqxDLZOT_M",
     "content": "If one way be better than another, that you may be sure is nature's way.",
     "author": "Aristotle",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "KO4bJ7IRjb7",
     "content": "Yesterday I dared to struggle. Today I dare to win.",
     "author": "Bernadette Devlin",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "jC-EvJbrBCGG",
@@ -1989,31 +1989,31 @@
     "_id": "qu3J1kIMDXfe",
     "content": "Happiness cannot be travelled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace and gratitude.",
     "author": "Denis Waitley",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "btD8Qvbzm_fD",
     "content": "It is not uncommon for people to spend their whole life waiting to start living.",
     "author": "Eckhart Tolle",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "yH9ZEKxlcJL-",
     "content": "Nature gave us one tongue and two ears so we could hear twice as much as we speak.",
     "author": "Epictetus",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Z5aMw6Z1KFjp",
     "content": "It is very easy to forgive others their mistakes; it takes more grit to forgive them for having witnessed your own.",
     "author": "Jessamyn West",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "l6GY3Z0heYA-",
     "content": "Love yourself first and everything else falls into line. You really have to love yourself to get anything done in this world.",
     "author": "Lucille Ball",
-    "tags": ["famous-quotes"]
+    "tags": ["love","life"]
   },
   {
     "_id": "-kr3shAHWtGr",
@@ -2025,25 +2025,25 @@
     "_id": "Rq20ZnWwEfZs",
     "content": "If you can't feed a hundred people, then feed just one.",
     "author": "Mother Teresa",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "avaEg8R5-LP4",
     "content": "Love is the master key that opens the gates of happiness.",
     "author": "Oliver Wendell Holmes Jr.",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness","love"]
   },
   {
     "_id": "hPQPQgK_iNXQ",
     "content": "Follow effective action with quiet reflection. From the quiet reflection will come even more effective action.",
     "author": "Peter Drucker",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "OdjtBvZuDQA",
     "content": "You have to believe in yourself.",
     "author": "Sun Tzu",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "xdmXfzn20ml",
@@ -2055,13 +2055,13 @@
     "_id": "erm1w9nM2ryb",
     "content": "We never live; we are always in the expectation of living.",
     "author": "Voltaire",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "vkR90rDh-ZSA",
     "content": "Hope arouses, as nothing else can arouse, a passion for the possible.",
     "author": "William Sloane Coffin",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "-UwYfDF1M",
@@ -2115,19 +2115,19 @@
     "_id": "Zhr3mv7HgY4u",
     "content": "Your vision will become clear only when you look into your heart. Who looks outside, dreams. Who looks inside, awakens.",
     "author": "Carl Jung",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "5V7Gw25dIjvc",
     "content": "Happiness is not something ready-made. It comes from your own actions.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "8SnLHyn1oiCH",
     "content": "Until you make peace with who you are, you will never be content with what you have.",
     "author": "Doris Mortman",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "GaR6_XoJwohj",
@@ -2145,31 +2145,31 @@
     "_id": "1q5znXik9aXV",
     "content": "You're not obligated to win. You're obligated to keep trying to do the best you can every day.",
     "author": "Marian Wright Edelman",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "I6Dxu4p7VBt",
     "content": "To fly, we have to have resistance.",
     "author": "Maya Lin",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "Dqqwo96Tximg",
     "content": "A man may fulfil the object of his existence by asking a question he cannot answer and attempting a task he cannot achieve.",
     "author": "Oliver Wendell Holmes Jr.",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "BqFJ5FP6LdA",
     "content": "Write your plans in pencil and give God the eraser.",
     "author": "Paulo Coelho",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "hv83OL-O-fTP",
     "content": "It is only when the mind and character slumber that the dress can be seen.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["character"]
   },
   {
     "_id": "q8nzpiYM7R5W",
@@ -2181,19 +2181,19 @@
     "_id": "xRtXhMgWsLDC",
     "content": "We can only be said to be alive in those moments when our hearts are conscious of our treasures.",
     "author": "Thornton Wilder",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "a9C880IWYfsD",
     "content": "Your mind will answer most questions if you learn to relax and wait for the answer.",
     "author": "William Burroughs",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "pEgdYoecygBA",
     "content": "To climb steep hills requires a slow pace at first.",
     "author": "William Shakespeare",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","famous-quotes"]
   },
   {
     "_id": "r2gCpEgG_LP",
@@ -2253,7 +2253,7 @@
     "_id": "gCmgZhuI0asg",
     "content": "We know the truth, not only by the reason, but by the heart.",
     "author": "Blaise Pascal",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "z6qESmmSnsFH",
@@ -2265,19 +2265,19 @@
     "_id": "bpQLiLuJ9cGA",
     "content": "I endeavor to be wise when I cannot be merry, easy when I cannot be glad, content with what cannot be mended and patient when there is no redress.",
     "author": "Elizabeth Montagu",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "6YlJjSaAbKdA",
     "content": "Our kindness may be the most persuasive argument for that which we believe.",
     "author": "Gordon Hinckley",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Dq9hDqahfYjZ",
     "content": "The smallest flower is a thought, a life answering to some feature of the Great Whole, of whom they have a persistent intuition.",
     "author": "Honoré de Balzac",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "vpHGlmeIu3Oz",
@@ -2289,7 +2289,7 @@
     "_id": "_k3kxvogAs-6",
     "content": "If you have knowledge, let others light their candles in it.",
     "author": "Margaret Fuller",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "KmBzNBNUV-Tp",
@@ -2307,19 +2307,19 @@
     "_id": "27YFtyxa8nBj",
     "content": "Meaning is not what you start with but what you end up with.",
     "author": "Peter Elbow",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "_0Xe3v-BJjUx",
     "content": "To fly as fast as thought, you must begin by knowing that you have already arrived.",
     "author": "Richard Bach",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "lcNcja--RmXG",
     "content": "There is no scarcity of opportunity to make a living at what you love; there's only scarcity of resolve to make it happen.",
     "author": "Wayne Dyer",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "W6T9TWwOwW0",
@@ -2367,19 +2367,19 @@
     "_id": "MBt-5fvDPQwf",
     "content": "All our talents increase in the using, and every faculty, both good and bad, strengthen by exercise.",
     "author": "Anne Brontë",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "zTK-zsh2HysH",
     "content": "The grand essentials of happiness are: something to do, something to love, and something to hope for.",
     "author": "Alexander Chalmers",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","happiness"]
   },
   {
     "_id": "jYyA1JDRT8Ao",
     "content": "Do not mind anything that anyone tells you about anyone else. Judge everyone and everything for yourself.",
     "author": "Henry James",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "999oXJVcS_I_",
@@ -2391,7 +2391,7 @@
     "_id": "kKbZ4DhZjI0d",
     "content": "To listen well is as powerful a means of communication and influence as to talk well.",
     "author": "John Marshall",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "SBqsC7DOKoC0",
@@ -2403,31 +2403,31 @@
     "_id": "dwyaOypDiT0t",
     "content": "Love isn't something you find. Love is something that finds you.",
     "author": "Loretta Young",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "Fyet-MEuSrkD",
     "content": "Our greatness lies not so much in being able to remake the world as being able to remake ourselves.",
-"author": "Mahatma Gandhi",
-"tags":["wisdom"]
+    "author": "Mahatma Gandhi",
+    "tags":["wisdom"]
   },
   {
     "_id": "wkkqY5x5kia3",
     "content": "There are basically two types of people. People who accomplish things, and people who claim to have accomplished things. The first group is less crowded.",
     "author": "Mark Twain",
-    "tags": ["famous-quotes"]
+    "tags": ["success"]
   },
   {
     "_id": "Vd5Yj4doqaZe",
     "content": "I don't believe in failure. It's not failure if you enjoyed the process.",
     "author": "Oprah Winfrey",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "L5sDM2UaWlBt",
     "content": "The pain passes, but the beauty remains.",
     "author": "Pierre-Auguste Renoir",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "jdg8XXMIeFqv",
@@ -2439,13 +2439,13 @@
     "_id": "JjjjyXF8oV5g",
     "content": "Sooner or later, those who win are those who think they can.",
     "author": "Richard Bach",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "r5SEZsvbKwTw",
     "content": "What is new in the world? Nothing. What is old in the world? Nothing. Everything has always been and will always be.",
     "author": "Sai Baba",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "47RkLdME26",
@@ -2487,7 +2487,7 @@
     "_id": "Z9WzZIllCHeX",
     "content": "An optimist is a person who sees a green light everywhere, while the pessimist sees only the red spotlight... The truly wise person is color-blind.",
     "author": "Albert Schweitzer",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "g8oQ_7rSPqBf",
@@ -2499,7 +2499,7 @@
     "_id": "yVux3WLSRx5X",
     "content": "Every man is a volume if you know how to read him.",
     "author": "William Ellery Channing",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Gq3dzDrL32z",
@@ -2511,19 +2511,19 @@
     "_id": "k_WpPLnr1hYR",
     "content": "Love and compassion open our own inner life, reducing stress, distrust and loneliness.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "SPpjcmzodeBs",
     "content": "By going beyond your own problems and taking care of others, you gain inner strength, self-confidence, courage, and a greater sense of calm.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "VspfwuIZXX0E",
     "content": "The universe is transformation; our life is what our thoughts make it.",
     "author": "Marcus Aurelius",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "2i4ILvPHXsgJ",
@@ -2535,25 +2535,25 @@
     "_id": "fgNERo-i9sHI",
     "content": "If you want things to be different, perhaps the answer is to become different yourself.",
     "author": "Norman Vincent Peale",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "1RmEkIqT9Cyn",
     "content": "Nothing is at last sacred but the integrity of your own mind.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "QNbmX282V14H",
     "content": "Belief consists in accepting the affirmations of the soul; Unbelief, in denying them.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "DlQmGRzNGo3i",
     "content": "It is not in the stars to hold our destiny but in ourselves.",
     "author": "William Shakespeare",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "4w4phxeQaW",
@@ -2595,31 +2595,31 @@
     "_id": "0PnL1GPc2muX",
     "content": "The greatest good you can do for another is not just share your riches but reveal to them their own.",
     "author": "Benjamin Disraeli",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "HNxrO-sMtq86",
     "content": "Our passion is our strength.",
     "author": "Billie Armstrong",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "gphANJ7YEjnz",
     "content": "No day in which you learn something is a complete loss.",
     "author": "David Eddings",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "jUzHSANe7yNC",
     "content": "He that respects himself is safe from others; he wears a coat of mail that none can pierce.",
     "author": "Henry Wadsworth Longfellow",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "7sb9azyuRsir",
     "content": "Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it; it's only for wallowing in.",
     "author": "Katherine Mansfield",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "eOgY1uyEvIl8",
@@ -2631,61 +2631,61 @@
     "_id": "er8h8dsPVIc6",
     "content": "Nothing in life is to be feared. It is only to be understood.",
     "author": "Marie Curie",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "qFQBpG1Z9mTw",
     "content": "To do all that one is able to do, is to be a man; to do all that one would like to do, is to be a god.",
     "author": "Napoleon",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "LJgh17GgZGID",
     "content": "I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars.",
     "author": "Og Mandino",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "_tPHsxO_pOK2",
     "content": "Take rest; a field that has rested gives a bountiful crop.",
     "author": "Ovid",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "d3Fax4zGtnHT",
     "content": "Know how to listen, and you will profit even from those who talk badly.",
     "author": "Plutarch",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "hXmMutk9Y8Nd",
     "content": "Life is not a problem to be solved, but a reality to be experienced.",
     "author": "Søren Kierkegaard",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "em8Skf5_TYmL",
     "content": "To go against the dominant thinking of your friends, of most of the people you see every day, is perhaps the most difficult act of heroism you can perform.",
     "author": "Theodore H. White",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "doAJZCWZ9kRp",
     "content": "I have not failed. I've just found 10,000 ways that won't work.",
     "author": "Thomas Edison",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","famous-quotes"]
   },
   {
     "_id": "xRm-IIMzrRPm",
     "content": "Just as much as we see in others, we have in ourselves.",
     "author": "William Hazlitt",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Ilvlt1O0thk7",
     "content": "We know what we are but know not what we may be.",
     "author": "William Shakespeare",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","famous-quotes"]
   },
   {
     "_id": "iuLrw6KaMA",
@@ -2715,13 +2715,13 @@
     "_id": "rPhZvCjp1t8J",
     "content": "Remember that sometimes not getting what you want is a wonderful stroke of luck.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["famous-quotes","wisdom"]
   },
   {
     "_id": "i6ciiFzPCN-n",
     "content": "Fear grows in darkness; if you think there's a bogeyman around, turn on the light.",
     "author": "Dorothy Thompson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "cEntvthXVp1",
@@ -2733,55 +2733,55 @@
     "_id": "8ZIDZ3CxrJUg",
     "content": "The only limit to our realization of tomorrow will be our doubts of today.",
     "author": "Franklin D. Roosevelt",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","famous-quotes"]
   },
   {
     "_id": "cjyPQOFcVaRA",
     "content": "Let us resolve to be masters, not the victims, of our history, controlling our own destiny without giving way to blind suspicions and emotions.",
     "author": "John F. Kennedy",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","famous-quotes"]
   },
   {
     "_id": "4t5kIaLA6m8H",
     "content": "If it is not right do not do it; if it is not true do not say it.",
     "author": "Marcus Aurelius",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Aya0eLpghjxG",
     "content": "The purpose of learning is growth, and our minds, unlike our bodies, can continue growing as we continue to live.",
     "author": "Mortimer J. Adler",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "6UG4hWhrspT",
     "content": "A goal is a dream with a deadline.",
     "author": "Napoleon Hill",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","wisdom"]
   },
   {
     "_id": "s-FViy5Lm3E0",
     "content": "Do not waste yourself in rejection, nor bark against the bad, but chant the beauty of the good.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "_1lzYCBjMDlC",
     "content": "When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "I8UeHLSzDydW",
     "content": "Do not be embarrassed by your mistakes. Nothing can teach us better than our understanding of them. This is one of the best ways of self-education.",
     "author": "Thomas Carlyle",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "0Z8EQaXeVdhX",
     "content": "We've got to have a dream if we are going to make a dream come true.",
     "author": "Walt Disney",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational","wisdom"]
   },
   {
     "_id": "cfZn_tJRV_",
@@ -2847,13 +2847,13 @@
     "_id": "JAdyNiUrQJHS",
     "content": "You learn to speak by speaking, to study by studying, to run by running, to work by working; in just the same way, you learn to love by loving.",
     "author": "Anatole France",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "sCR2ucyf1idj",
     "content": "The energy of the mind is the essence of life.",
     "author": "Aristotle",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "PY1mMrjcEYfF",
@@ -2865,7 +2865,7 @@
     "_id": "x16CqiTuVRw2",
     "content": "I love my past. I love my present. I'm not ashamed of what I've had, and I'm not sad because I have it no longer.",
     "author": "Colette",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "XE3tAalt0C9H",
@@ -2883,13 +2883,13 @@
     "_id": "4-GmMILEcnHw",
     "content": "Sometimes the most important thing in a whole day is the rest we take between two deep breaths.",
     "author": "Etty Hillesum",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "KtQvU9-w2B60",
     "content": "An ounce of emotion is equal to a ton of facts.",
     "author": "John Junor",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "CFy490n4lo8g",
@@ -2901,25 +2901,25 @@
     "_id": "dO8CMrZCBgBw",
     "content": "Chance is always powerful. Let your hook be always cast; in the pool where you least expect it, there will be a fish.",
     "author": "Ovid",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","inspirational"]
   },
   {
     "_id": "b8TNXXWOkfSV",
     "content": "In skating over thin ice our safety is in our speed.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "rT_P2fRlDvzW",
     "content": "Let go of your attachment to being right, and suddenly your mind is more open. You're able to benefit from the unique viewpoints of others, without being crippled by your own judgement.",
     "author": "Ralph Marston",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "U-KQbUPHOnyK",
     "content": "Let the beauty of what you love be what you do.",
     "author": "Rumi",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "xAhAKo-kqcD",
@@ -2961,43 +2961,43 @@
     "_id": "qdu_n6bzzKdo",
     "content": "Joy is the best makeup.",
     "author": "Anne Lamott",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "Li5842VNqZbn",
     "content": "If one is estranged from oneself, then one is estranged from others too. If one is out of touch with oneself, then one cannot touch others.",
     "author": "Anne Lindbergh",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "FI5mThj-syB4",
     "content": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
     "author": "Aristotle",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","inspirational"]
   },
   {
     "_id": "dqGms-NhJTvE",
     "content": "The least movement is of importance to all nature. The entire ocean is affected by a pebble.",
     "author": "Blaise Pascal",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "TuOxOv1kt3u",
     "content": "Goals are the fuel in the furnace of achievement.",
     "author": "Brian Tracy",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "ELHOG8O36T4p",
     "content": "Mistakes are always forgivable, if one has the courage to admit them.",
     "author": "Bruce Lee",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "kgypq-6zX6Kb",
     "content": "The highest stage in moral culture at which we can arrive is when we recognize that we ought to control our thoughts.",
     "author": "Charles Darwin",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "NTseDGDXOuo8",
@@ -3261,7 +3261,7 @@
     "_id": "7Ndd5D0hjib4",
     "content": "Let yourself be silently drawn by the stronger pull of what you really love.",
     "author": "Rumi",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "2gO92SUDmhSk",
@@ -3465,7 +3465,7 @@
     "_id": "NZx4vMwOCDxJ",
     "content": "There is only one happiness in life, to love and be loved.",
     "author": "George Sand",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "kd2p5bp3pJ9g",
@@ -3525,13 +3525,13 @@
     "_id": "y1RIkUSWFpl",
     "content": "The greatest remedy for anger is delay.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "6Frokv7EPoui",
     "content": "Ignorant men don't know what good they hold in their hands until they've flung it away.",
     "author": "Sophocles",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "ghsWhOeHC-85",
@@ -3615,7 +3615,7 @@
     "_id": "Qhc0Ny5-nYwV",
     "content": "If we look at the world with a love of life, the world will reveal its beauty to us.",
     "author": "Daisaku Ikeda",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "rEeMIL3Ro-r",
@@ -3639,7 +3639,7 @@
     "_id": "JjBqM4t-sxsr",
     "content": "Wise men talk because they have something to say; fools, because they have to say something.",
     "author": "Plato",
-    "tags": ["famous-quotes"]
+    "tags": ["famous-quotes","wisdom"]
   },
   {
     "_id": "5yzpEPenl4TS",
@@ -3651,7 +3651,7 @@
     "_id": "AeJkfzeXkGnI",
     "content": "The most precious gift we can offer anyone is our attention. When mindfulness embraces those we love, they will bloom like flowers.",
     "author": "Thích Nhất Hạnh",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "sAqRoYN_WRkP",
@@ -3741,7 +3741,7 @@
     "_id": "UNlGWHNGjOXe",
     "content": "Do all things with love.",
     "author": "Og Mandino",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "iOP3zVICCTtp",
@@ -3753,7 +3753,7 @@
     "_id": "rIUMUrUMtzXv",
     "content": "There is no great genius without some touch of madness.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "3tXfdExB8jB",
@@ -3861,7 +3861,7 @@
     "_id": "QtuKHLeFEBK5",
     "content": "We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly.",
     "author": "Sam Keen",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "ZKp5o1R_6pa",
@@ -3926,8 +3926,8 @@
   {
     "_id": "A5l8yCGO4BL5",
     "content": "Forgiveness is choosing to love. It is the first skill of self-giving love.",
-"author": "Mahatma Gandhi",
-"tags":["wisdom"]
+    "author": "Mahatma Gandhi",
+    "tags":["wisdom"]
   },
   {
     "_id": "wPJ_Mb4EjPlE",
@@ -4089,7 +4089,7 @@
     "_id": "RfsD8oOMcu7",
     "content": "Courage is going from failure to failure without losing enthusiasm.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "VU3FSQfTmG",
@@ -4131,13 +4131,13 @@
     "_id": "2kY4qTishsqp",
     "content": "Love does not consist of gazing at each other, but in looking together in the same direction.",
     "author": "Antoine de Saint-Exupéry",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "apQ8nGGjT14_",
     "content": "Love is composed of a single soul inhabiting two bodies.",
     "author": "Aristotle",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "ZahS1pL6yi-9",
@@ -4203,25 +4203,25 @@
     "_id": "8k9Rynu7Y1g7",
     "content": "The universe is made of stories, not atoms.",
     "author": "Muriel Rukeyser",
-    "tags": ["famous-quotes"]
+    "tags": ["science"]
   },
   {
     "_id": "DqmA8fnr4xJY",
     "content": "Wise men speak because they have something to say; Fools because they have to say something.",
     "author": "Plato",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "Z5FIvoa4U1f-",
     "content": "We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["character"]
   },
   {
     "_id": "TGQrxqaS3rW9",
     "content": "Intuition is the supra-logic that cuts out all the routine processes of thought and leaps straight from the problem to the answer.",
     "author": "Robert Graves",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "OSF3eMB6sZaP",
@@ -4563,7 +4563,7 @@
     "_id": "buDtfjSevJe6",
     "content": "Continuous effort - not strength or intelligence - is the key to unlocking our potential.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "2hAS8ixh02",
@@ -4689,7 +4689,7 @@
     "_id": "xH7XN__m5y",
     "content": "We can only learn to love by loving.",
     "author": "Iris Murdoch",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "hsozBBvqqxAy",
@@ -4707,7 +4707,7 @@
     "_id": "__7E1LEXGN_0",
     "content": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
     "author": "Mother Teresa",
-    "tags": ["famous-quotes"]
+    "tags": ["love","wisdom","happiness"]
   },
   {
     "_id": "XJJ8SfdhbU1u",
@@ -4731,13 +4731,13 @@
     "_id": "N4uElQP58Nb6",
     "content": "The greatest way to live with honor in this world is to be what we pretend to be.",
     "author": "Socrates",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "a_UVavIxwkA0",
     "content": "Judge nothing, you will be happy. Forgive everything, you will be happier. Love everything, you will be happiest.",
     "author": "Sri Chinmoy",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","happiness"]
   },
   {
     "_id": "x4gbVTU0f3TW",
@@ -4809,7 +4809,7 @@
     "_id": "QEJsaQ4DbY-v",
     "content": "I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever.",
     "author": "Amy Tan",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "IIjBYbtwyL6O",
@@ -4827,7 +4827,7 @@
     "_id": "dkOBkLx1o6Vf",
     "content": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
     "author": "Dr. Seuss",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "Nf7VnkC8VtH_",
@@ -4839,7 +4839,7 @@
     "_id": "e1n5aMOunl1g",
     "content": "If I know what love is, it is because of you.",
     "author": "Hermann Hesse",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "oBIkrfaDDlb0",
@@ -4893,7 +4893,7 @@
     "_id": "fdSsJN4RCf",
     "content": "It is impossible to love and to be wise.",
     "author": "Francis Bacon",
-    "tags": ["wisdom"]
+    "tags": ["wisdom","love"]
   },
   {
     "_id": "-1B7G54OXj",
@@ -4959,7 +4959,7 @@
     "_id": "MTSzMf8CPBkY",
     "content": "We love life, not because we are used to living but because we are used to loving.",
     "author": "Friedrich Nietzsche",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "-heGK76DT1GP",
@@ -4983,7 +4983,7 @@
     "_id": "2qxP73FkXf66",
     "content": "History will be kind to me for I intend to write it.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "tngIy9Uux",
@@ -5097,7 +5097,7 @@
     "_id": "bhseVu9PSh1I",
     "content": "Accept the things to which fate binds you and love the people with whom fate brings you together but do so with all your heart.",
     "author": "Marcus Aurelius",
-    "tags": ["famous-quotes"]
+    "tags": ["love","wisdom"]
   },
   {
     "_id": "kq_R7P1iSIm3",
@@ -5319,7 +5319,7 @@
     "_id": "t8Jx9fDzawy",
     "content": "Speak low, if you speak love.",
     "author": "William Shakespeare",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "I5zMVI_HGM",
@@ -5402,8 +5402,8 @@
   {
     "_id": "Dp-ZJ6WsmYqu",
     "content": "Where there is love there is life.",
-"author": "Mahatma Gandhi",
-"tags":["wisdom"]
+    "author": "Mahatma Gandhi",
+    "tags":["wisdom"]
   },
   {
     "_id": "6isvcSZcOcZz",
@@ -5517,7 +5517,7 @@
     "_id": "H-8bcEHd3S2X",
     "content": "Love at first sight is easy to understand; it's when two people have been looking at each other for a lifetime that it becomes a miracle.",
     "author": "Amy Bloom",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "zWLPanirMTAh",
@@ -5595,7 +5595,7 @@
     "_id": "iCcV8TjAAZ71",
     "content": "Doing what you love is the cornerstone of having abundance in your life.",
     "author": "Wayne Dyer",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness","life"]
   },
   {
     "_id": "_Nz3ZoTdMe",
@@ -5661,7 +5661,7 @@
     "_id": "MONDu5bf8JmU",
     "content": "If you love life, don't waste time, for time is what life is made up of.",
     "author": "Bruce Lee",
-    "tags": ["famous-quotes"]
+    "tags": ["life","inspirational"]
   },
   {
     "_id": "R0jNpkTSUJX",
@@ -5877,7 +5877,7 @@
     "_id": "kSFeXJtKMAfD",
     "content": "Much wisdom often goes with fewer words.",
     "author": "Sophocles",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "cuQ8b2Ivikxe",
@@ -6213,7 +6213,7 @@
     "_id": "UG8slERojHSm",
     "content": "We make a living by what we get, but we make a life by what we give.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "pAcdc2oMJ_",
@@ -6429,7 +6429,7 @@
     "_id": "7qMTJxZR1ZRF",
     "content": "Genuine love should first be directed at oneself; if we do not love ourselves, how can we love others?",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "HBLejCmmWoIy",
@@ -6513,7 +6513,7 @@
     "_id": "PnQ8g2gz_sY2",
     "content": "I never worry about action, but only inaction.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "SmY4xzg7NR8p",
@@ -6669,7 +6669,7 @@
     "_id": "f071rzur67M2",
     "content": "Men of perverse opinion do not know the excellence of what is in their hands, till someone dash it from them.",
     "author": "Sophocles",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "uamoi_rJmU",
@@ -6843,7 +6843,7 @@
     "_id": "J-Q-UnpXS3G2",
     "content": "The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "tMv7BXOXe",
@@ -7281,7 +7281,7 @@
     "_id": "nFRdjQdGL4v5",
     "content": "Love is never lost. If not reciprocated, it will flow back and soften and purify the heart.",
     "author": "Washington Irving",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "adyIVFoWB",
@@ -7347,7 +7347,7 @@
     "_id": "Oug3r9Htje7b",
     "content": "Lord, make me an instrument of thy peace. Where there is hatred, let me sow love.",
     "author": "Francis of Assisi",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "CPhGOJeapNYZ",
@@ -7707,7 +7707,7 @@
     "_id": "yDgu-x-mFPpU",
     "content": "If one does not know to which port is sailing, no wind is favorable.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "9faWWZ4ITZrr",
@@ -7827,7 +7827,7 @@
     "_id": "-14YplwiKmh",
     "content": "A short saying often contains much wisdom.",
     "author": "Sophocles",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "NNRKhkipf13G",
@@ -8037,7 +8037,7 @@
     "_id": "Xof9SNxItD8Y",
     "content": "Before you can inspire with emotion, you must be swamped with it yourself. Before you can move their tears, your own must flow. To convince them, you must yourself believe.",
     "author": "Winston Churchill",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "uqRZV8skVN",
@@ -8229,7 +8229,7 @@
     "_id": "gZavCRsLqcse",
     "content": "I love you the more in that I believe you had liked me for my own sake and for nothing else.",
     "author": "John Keats",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "AdVXiA8jCiT",
@@ -8385,7 +8385,7 @@
     "_id": "HxaMW05ghs7P",
     "content": "Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.",
     "author": "Mother Teresa",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness","love"]
   },
   {
     "_id": "Z83-pCC5Uwq",
@@ -8613,7 +8613,7 @@
     "_id": "qHyhEzStTCEi",
     "content": "Age does not protect you from love. But love, to some extent, protects you from age.",
     "author": "Anaïs Nin",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "kTmtHqeUMESD",
@@ -8799,7 +8799,7 @@
     "_id": "_cllvgW3qw9C",
     "content": "Most powerful is he who has himself in his own power.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "wRJIJvRbLExe",
@@ -8937,7 +8937,7 @@
     "_id": "ptKYlB1uxnOr",
     "content": "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves.",
     "author": "Laozi",
-    "tags": ["wisdom","leadership"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "9RD4qy5UxMm9",
@@ -8967,19 +8967,19 @@
     "_id": "1sVeX5R0Ct3",
     "content": "The mind unlearns with difficulty what it has long learned.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "VyI86KmWFu1",
     "content": "Begin at once to live and count each separate day as a separate life.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "PrlfORUW5kZm",
     "content": "Better to have loved and lost, than to have never loved at all.",
     "author": "Augustine of Hippo",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "WGKvYTlZfcdS",
@@ -9045,7 +9045,7 @@
     "_id": "5eTiZJCTAy9B",
     "content": "Whoso loves, believes the impossible.",
     "author": "Elizabeth Browning",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "5_6lVDMuo9IM",
@@ -9069,7 +9069,7 @@
     "_id": "eFUpcDDj16lQ",
     "content": "Love has no age, no limit; and no death.",
     "author": "John Galsworthy",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "UXEo6vW4i1Jw",
@@ -9261,7 +9261,7 @@
     "_id": "2LmdIfvSmBlD",
     "content": "Before you put on a frown, make absolutely sure there are no smiles available.",
     "author": "James M. Beggs",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "8Lkh3gqcSh",
@@ -9279,37 +9279,37 @@
     "_id": "TcvsfRbBFgvq",
     "content": "Let us always meet each other with smile, for the smile is the beginning of love.",
     "author": "Mother Teresa",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "gBdWfRIFkxx4",
     "content": "The aim of life is self-development. To realize one's nature perfectly - that is what each of us is here for.",
     "author": "Oscar Wilde",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "i9HLCPii77bH",
     "content": "Great are they who see that spiritual is stronger than any material force, that thoughts rule the world.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "cJH-_m1_f0Um",
     "content": "So is cheerfulness, or a good temper, the more it is spent, the more remains.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["character"]
   },
   {
     "_id": "r9VIoOzFdUGU",
     "content": "The conditions of conquest are always easy. We have but to toil awhile, endure awhile, believe always, and never turn back.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "JfTBllGjt7L",
     "content": "Love all, trust a few, do wrong to none.",
     "author": "William Shakespeare",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","famous-quotes"]
   },
   {
     "_id": "CAnUBEJ1mw",
@@ -9375,7 +9375,7 @@
     "_id": "305CvwuKqye",
     "content": "The heart has its reasons which reason knows not of.",
     "author": "Blaise Pascal",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "5nc3WYWdbYLu",
@@ -9393,79 +9393,79 @@
     "_id": "AUq_HnRp2Isp",
     "content": "On every thorn, delightful wisdom grows, in every rill a sweet instruction flows.",
     "author": "Edward Young",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "OuOSAZxGADC",
     "content": "The beginning of knowledge is the discovery of something we do not understand.",
     "author": "Frank Herbert",
-    "tags": ["famous-quotes"]
+    "tags": ["science","wisdom"]
   },
   {
     "_id": "4jQJJntuZhaq",
     "content": "Intuition is the very force or activity of the soul in its experience through whatever has been the experience of the soul itself.",
     "author": "Henry Reed",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "mQ9rgTxuKeXa",
     "content": "Be glad of life because it gives you the chance to love, to work, to play, and to look up at the stars.",
     "author": "Henry van Dyke Jr.",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "XefAFBJI_Cf",
     "content": "Either you run the day or the day runs you.",
     "author": "Jim Rohn",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "xzOfgffA_i4K",
     "content": "Not what we have but what we enjoy constitutes our abundance.",
     "author": "Jean Antoine Petit-Senn",
-    "tags": ["famous-quotes"]
+    "tags": ["happiness"]
   },
   {
     "_id": "P3evPhlvU8bV",
     "content": "Dreams come true. Without that possibility, nature would not incite us to have them.",
     "author": "John Updike",
-    "tags": ["famous-quotes"]
+    "tags": ["inspirational"]
   },
   {
     "_id": "5OsoVNA7a0ad",
     "content": "As an organizer I start from where the world is, as it is, not as I would like it to be.",
     "author": "Saul Alinsky",
-    "tags": ["famous-quotes"]
+    "tags": ["courage"]
   },
   {
     "_id": "SjSXV2RqMnq3",
     "content": "The greatest way to live with honor in this world is to be what we pretend to be.",
     "author": "Socrates",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "WuHLOLFI2uKy",
     "content": "To be aware of a single shortcoming in oneself is more useful than to be aware of a thousand in someone else.",
     "author": "Dalai Lama",
-    "tags": ["famous-quotes"]
+    "tags": ["character", "wisdom"]
   },
   {
     "_id": "gjXvu4IvrUf",
     "content": "No garden is without its weeds.",
     "author": "Thomas Fuller",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "R80GBolDfAev",
     "content": "Life is like a sewer. What you get out of it depends on what you put into it.",
     "author": "Tom Lehrer",
-    "tags": ["famous-quotes"]
+    "tags": ["life","wisdom"]
   },
   {
     "_id": "StQwgV2uHKio",
     "content": "In seed time learn, in harvest teach, in winter enjoy.",
     "author": "William Blake",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "GcWOk8pTEf",
@@ -9513,13 +9513,13 @@
     "_id": "0IP2kpOHSiPj",
     "content": "I have never been hurt by anything I didn't say.",
     "author": "Calvin Coolidge",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","character"]
   },
   {
     "_id": "VqDHgHOYYTsd",
     "content": "Our lives are the only meaningful expression of what we believe and in Whom we believe. And the only real wealth, for any of us, lies in our faith.",
     "author": "Gordon Hinckley",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "heFGlWwPZjvX",
@@ -9537,31 +9537,31 @@
     "_id": "w7BFNBIxOvmc",
     "content": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigor of the mind.",
     "author": "Leonardo da Vinci",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "h_J3NODgXZ5",
     "content": "The years teach much which the days never know.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "3VC1Tk541UV",
     "content": "Life is a progress, and not a station.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","life"]
   },
   {
     "_id": "FFdTTIJ6aqj_",
     "content": "Everything in the universe goes by indirection. There are no straight lines.",
     "author": "Ralph Waldo Emerson",
-    "tags": ["famous-quotes"]
+    "tags": ["life","wisdom"]
   },
   {
     "_id": "IvoOxxfBcYN",
     "content": "Luck is what happens when preparation meets opportunity.",
     "author": "Seneca the Younger",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "mJqyHSkJN",
@@ -9627,31 +9627,31 @@
     "_id": "1YXmyT1yhWU",
     "content": "Trust yourself. You know more than you think you do.",
     "author": "Benjamin Spock",
-    "tags": ["famous-quotes"]
+    "tags": ["courage"]
   },
   {
     "_id": "i8lV7rU4HN40",
     "content": "Life's challenges are not supposed to paralyze you, they're supposed to help you discover who you are.",
     "author": "Bernice Reagon",
-    "tags": ["famous-quotes"]
+    "tags": ["life"]
   },
   {
     "_id": "TDvWtxjmsHT8",
     "content": "We are all something, but none of us are everything.",
     "author": "Blaise Pascal",
-    "tags": ["famous-quotes"]
+    "tags": ["life","wisdom"]
   },
   {
     "_id": "EFIK1GrN6Otv",
     "content": "You cannot find yourself by going into the past. You can find yourself by coming into the present.",
     "author": "Eckhart Tolle",
-    "tags": ["famous-quotes"]
+    "tags": ["life","wisdom"]
   },
   {
     "_id": "07zmPxxgF8H",
     "content": "Love doesn't make the world go round; love is what makes the ride worthwhile.",
     "author": "Elizabeth Browning",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "1SHCOeLgKWa0",
@@ -9687,7 +9687,7 @@
     "_id": "BIBarxYM26Ux",
     "content": "We can do no great things, only small things with great love.",
     "author": "Mother Teresa",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom"]
   },
   {
     "_id": "K4fn0Bz-4V1-",
@@ -10317,7 +10317,7 @@
     "_id": "89tyQf_NKq3f",
     "content": "Life without love is like a tree without blossoms or fruit.",
     "author": "Kahlil Gibran",
-    "tags": ["famous-quotes"]
+    "tags": ["life","love"]
   },
   {
     "_id": "Bg0GobDyVYuP",
@@ -10629,7 +10629,7 @@
     "_id": "3ZiVwxeuF5k",
     "content": "Where there is great love, there are always miracles.",
     "author": "Willa Cather",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "-Hqy06gxrO",
@@ -10773,7 +10773,7 @@
     "_id": "OY_FmDtw10XY",
     "content": "Love is a serious mental disease.",
     "author": "Plato",
-    "tags": ["famous-quotes"]
+    "tags": ["wisdom","love"]
   },
   {
     "_id": "ITSWNEMYeJ2",
@@ -10911,7 +10911,7 @@
     "_id": "tSVLiDTGay4S",
     "content": "Love cures people - both the ones who give it and the ones who receive it.",
     "author": "Karl Menninger",
-    "tags": ["famous-quotes"]
+    "tags": ["love"]
   },
   {
     "_id": "hfp6DHDEA7lk",
@@ -11313,7 +11313,7 @@
     "_id": "tLoJe82KV",
     "author": "Winston Churchill",
     "content": "Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.",
-    "tags": []
+    "tags": ["wisdom"]
   },
   {
     "_id": "E9q7mXmEBV",
@@ -11337,7 +11337,7 @@
     "_id": "ueNZohx2Vo",
     "author": "Winston Churchill",
     "content": "Attitude is a little thing that makes a big difference.",
-    "tags": []
+    "tags": ["wisdom"]
   },
   {
     "_id": "P1qpVayN1l",
@@ -11391,7 +11391,7 @@
     "_id": "VFuYWRR2yM",
     "author": "Winston Churchill",
     "content": "I am an optimist. It does not seem too much use being anything else.",
-    "tags": []
+    "tags": ["wisdom","character"]
   },
   {
     "_id": "J2YAEeD2ky",
@@ -11637,7 +11637,7 @@
     "_id": "JFgRzbL3Tw",
     "author": "Alan Watts",
     "content": "The ego is nothing other than the focus of conscious attention.",
-    "tags": []
+    "tags": ["wisdom"]
   },
   {
     "_id": "n4cqmf135I",
@@ -11697,6 +11697,6 @@
     "_id": "kTPcOrawirq",
     "author": "Alan Watts",
     "content": "Saints need sinners.",
-    "tags": []
+    "tags": ["wisdom"]
   }
 ]
