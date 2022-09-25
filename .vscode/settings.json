@@ -7,5 +7,6 @@
     "iiprop",
     "pageimage",
     "stopwords"
-  ]
+  ],
+  "markdown.extension.toc.levels": "2..3"
 }
