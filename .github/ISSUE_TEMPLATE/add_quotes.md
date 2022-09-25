@@ -2,7 +2,7 @@
 name: Add New Quotes
 about: Use this issue template to submit new quotes that you would like to add to the collection. 
 title: 'content: new quotes'
-labels: "content: new quotes"
+labels: 'content: new quotes'
 assignees: ''
 
 ---

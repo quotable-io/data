@@ -2,14 +2,23 @@
 
 - [Content Guidelines](#content-guidelines)
 - [Issue Contributions](#issue-contributions)
+  - [Suggesting new quotes](#suggesting-new-quotes)
+  - [Remove Inappropriate Quotes](#remove-inappropriate-quotes)
+  - [Suggesting Changes](#suggesting-changes)
 - [Pull Requests](#pull-requests)
+  - [Setup](#setup)
+  - [Adding new content](#adding-new-content)
+  - [Editing Content](#editing-content)
+  - [Adding Tags to Existing Quotes](#adding-tags-to-existing-quotes)
 
 ## Content Guidelines
 
-- Quotes should be good quality: accurate, interesting, and fun to read. 
-- Quotes should not contain any offensive language  
-- All authors must have a wikipedia page (we use the wiki API for creating Author objects and various other things)
-
+- **All quotes should be good quality: accurate, interesting, and fun to read.**
+- Quotes should not contain any offensive language
+- Quotes should not contain language or messages that may be interpreted as racist, sexist, xenophobic, or otherwise offensive. 
+- We do not include any quotes by historical figures who are associated with violence, oppression, racism etc (ie Hitler, Stalin, etc), regardless of the content of the quote.
+- Political quotes are fine, as long as they are **not partisan**. For example, quotes that promote human rights, democracy, social justice, equality, etc, are totally fine. However, quotes that refer to a specific political party or politician should not be included.  
+ 
 ## Issue Contributions 
 
 The easiest way to contribute is by opening an issue to propose changes. 
@@ -47,7 +56,11 @@ You can open an issue to suggest new quotes. **You don't need to check if the qu
   }
 ]
 ```
+### Remove Inappropriate Quotes
 
+If you come across any quotes that violate the [content guidelines](#content-guidelines), please report them so they can be removed. 
+
+Open a new issue. List the quotes you want to remove. Include the quote content or `_id`. 
 ### Suggesting Changes
 
 You can open to an issue to suggest changes to existing quotes. For example, to fix spelling, grammar, or accuracy, etc.
