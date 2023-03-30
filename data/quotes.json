@@ -18,12 +18,6 @@
     "tags": ["success", "famous-quotes"]
   },
   {
-    "_id": "eoqYvztdD6Xo",
-    "content": "You cannot travel the path until you have become the path itself.",
-    "author": "Buddha",
-    "tags": ["famous-quotes", "wisdom"]
-  },
-  {
     "_id": "rIyjtuXKWUzv",
     "content": "It is never too late to be what you might have been.",
     "author": "George Eliot",
@@ -238,12 +232,6 @@
     "content": "We must not allow ourselves to become like the system we oppose.",
     "author": "Desmond Tutu",
     "tags": ["character"]
-  },
-  {
-    "_id": "5lsIG8ZCgvy4",
-    "content": "You will not be punished for your anger; you will be punished by your anger.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "SP7hRDnqmC0M",
@@ -1039,19 +1027,13 @@
   },
   {
     "_id": "5LtX2rAr-8LB",
-    "content": "Happiness comes when your work and words are of benefit to yourself and others.",
+    "content": "To have much learning and skill, to be well-trained in discipline, and good in speech — this is the highest blessing.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
   {
     "_id": "J4Gb_w0TBwl8",
-    "content": "Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
-    "_id": "aAHoOxRG8pTE",
-    "content": "An idea that is developed and put into action is more important than an idea that exists only as an idea.",
+    "content": "A single lamp may light hundreds of thousands of lamps without itself being diminished.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -1572,12 +1554,6 @@
     "tags": ["wisdom"]
   },
   {
-    "_id": "TzBQb8TUHiV",
-    "content": "It is better to travel well than to arrive.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "vwG4kAanVB",
     "content": "Nothing happens unless first we dream.",
     "author": "Carl Sandburg",
@@ -1624,12 +1600,6 @@
     "content": "We are Divine enough to ask and we are important enough to receive.",
     "author": "Wayne Dyer",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "XbsAE6kO-Q",
-    "content": "Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind. To walk safely through the maze of human life, one needs the light of wisdom and the guidance of virtue.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "oRZY1bcuOo",
@@ -2257,7 +2227,7 @@
   },
   {
     "_id": "z6qESmmSnsFH",
-    "content": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "content": "What is past is left behind. The future is yet unreached. Whatever quality is present, clearly see it right there.",
     "author": "Buddha",
     "tags": ["wisdom", "future"]
   },
@@ -2488,12 +2458,6 @@
     "content": "An optimist is a person who sees a green light everywhere, while the pessimist sees only the red spotlight... The truly wise person is color-blind.",
     "author": "Albert Schweitzer",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "g8oQ_7rSPqBf",
-    "content": "There are only two mistakes one can make along the road to truth; not going all the way, and not starting.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "yVux3WLSRx5X",
@@ -2857,7 +2821,7 @@
   },
   {
     "_id": "PY1mMrjcEYfF",
-    "content": "Chaos is inherent in all compounded things. Strive on with diligence.",
+    "content": "Conditions fall apart. Persist with diligence.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -3168,18 +3132,6 @@
     "tags": ["life"]
   },
   {
-    "_id": "ZR3wECF-tFj",
-    "content": "He is able who thinks he is able.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
-    "_id": "QowQF_1qh0AL",
-    "content": "If you light a lamp for somebody, it will also brighten your path.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "lEjcF-a2-Z5w",
     "content": "Sincerity is the way of Heaven. The attainment of sincerity is the way of men.",
     "author": "Confucius",
@@ -3334,12 +3286,6 @@
     "content": "All great men are gifted with intuition. They know without reasoning or analysis, what they need to know.",
     "author": "Alexis Carrel",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "wFpuOZ-TFZZy",
-    "content": "The foot feels the foot when it feels the ground.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "-p4UJJtG2e0g",
@@ -3810,18 +3756,6 @@
     "tags": ["famous-quotes", "life"]
   },
   {
-    "_id": "LT9DDr9oO_1",
-    "content": "In separateness lies the world's great misery, in compassion lies the world's true strength.",
-    "author": "Buddha",
-    "tags": ["famous-quotes", "wisdom"]
-  },
-  {
-    "_id": "uz67qLy3TOtD",
-    "content": "Every human being is the author of his own health or disease.",
-    "author": "Buddha",
-    "tags": ["famous-quotes", "wisdom"]
-  },
-  {
     "_id": "m29zdeLKtCge",
     "content": "Our greatest glory is not in never falling, but in rising every time we fall.",
     "author": "Confucius",
@@ -4138,12 +4072,6 @@
     "content": "Love is composed of a single soul inhabiting two bodies.",
     "author": "Aristotle",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "ZahS1pL6yi-9",
-    "content": "To live a pure unselfish life, one must count nothing as one's own in the midst of abundance.",
-    "author": "Buddha",
-    "tags": ["famous-quotes", "wisdom"]
   },
   {
     "_id": "juG0aJTnYxmf",
@@ -4770,12 +4698,6 @@
     "tags": ["inspirational"]
   },
   {
-    "_id": "Oi9UJYy-or",
-    "content": "To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind, he can find the way to Enlightenment, and all wisdom and virtue will naturally come to him.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "7ca_FwfVHg",
     "content": "There are three methods to gaining wisdom. The first is reflection, which is the highest. The second is limitation, which is the easiest. The third is experience, which is the bitterest.",
     "author": "Confucius",
@@ -5052,12 +4974,6 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "YpwlWUG-KOSX",
-    "content": "Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "r3wAKE9N-Nei",
     "content": "Imagination will often carry us to worlds that never were. But without it we go nowhere.",
     "author": "Carl Sagan",
@@ -5220,12 +5136,6 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "2a7xKeQ1JWGy",
-    "content": "To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "uQwITry_sQQv",
     "content": "I am not bothered by the fact that I am unknown. I am bothered when I do not know others.",
     "author": "Confucius",
@@ -5374,12 +5284,6 @@
     "content": "Every man takes the limits of his own field of vision for the limits of the world.",
     "author": "Arthur Schopenhauer",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "jBB1tmLvV4pk",
-    "content": "Thousands of candles can be lit from a single, and the life of the candle will not be shortened. Happiness never decreases by being shared.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "gWcOr2Nlx5H8",
@@ -5670,12 +5574,6 @@
     "tags": ["wisdom"]
   },
   {
-    "_id": "4IhfJJqAxwUF",
-    "content": "No matter how hard the past, you can always begin again.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "q5pinUOGHiFE",
     "content": "Meditation brings wisdom, lack of meditation leaves ignorance. Know well what leads you forward and what holds you back and choose the path that leads to wisdom.",
     "author": "Buddha",
@@ -5797,13 +5695,13 @@
   },
   {
     "_id": "rvHFZA-XZ67",
-    "content": "The mind is everything. What you think you become.",
+    "content": "All phenomena are preceded by the mind, created by the mind, and have the mind as their master.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
   {
     "_id": "yA3NA7G_Mii8",
-    "content": "If you propose to speak, always ask yourself, is it true, is it necessary, is it kind.",
+    "content": "Do I speak at the right time, or not? Do I speak of facts, or not? Do I speak gently or harshly? Do I speak profitable words or not? Do I speak with a kindly heart, or inwardly malicious?",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -6108,14 +6006,8 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "orZod3ezinb",
-    "content": "What we think, we become.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "VhB6QxfGuNjt",
-    "content": "Just as a candle cannot burn without fire, men cannot live without a spiritual life.",
+    "content": "Heedfulness is the path to the Deathless. Heedlessness is the path to death. The heedful die not. The heedless are as if already dead.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -6276,12 +6168,6 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "cVe_Ylw-Om",
-    "content": "Peace comes from within. Do not seek it without.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "Stv2simFUzRv",
     "content": "The most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.",
     "author": "Helen Keller",
@@ -6406,12 +6292,6 @@
     "content": "The secret of success is constancy to purpose.",
     "author": "Benjamin Disraeli",
     "tags": ["success"]
-  },
-  {
-    "_id": "j7esy7a9tvwi",
-    "content": "When you realize how perfect everything is you will tilt your head back and laugh at the sky.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "FGX8aUpiiS5z",
@@ -6870,12 +6750,6 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "kS2H14WhWSor",
-    "content": "The thought manifests as the word. The word manifests as the deed. The deed develops into habit. And the habit hardens into character.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "O1oEhziR2P7H",
     "content": "We must not say every mistake is a foolish one.",
     "author": "Cicero",
@@ -7150,12 +7024,6 @@
     "content": "How we spend our days is, of course, how we spend our lives.",
     "author": "Annie Dillard",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "KtATEEX7uoyA",
-    "content": "You only lose what you cling to.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "279KuN7AAeyu",
@@ -7464,12 +7332,6 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "cR1oBKwCFpyq",
-    "content": "Remembering a wrong is like carrying a burden on the mind.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "xEYjoxqQhRfC",
     "content": "A man is great by deeds, not by birth.",
     "author": "Chanakya",
@@ -7621,7 +7483,7 @@
   },
   {
     "_id": "fPbyWAYY7Sd4",
-    "content": "Your work is to discover your work and then with all your heart to give yourself to it.",
+    "content": "Don’t sacrifice your own welfare for that of another, no matter how great. Realizing your own true welfare, be intent on just that.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -7926,14 +7788,8 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "64Co8WffPGJT",
-    "content": "We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "qWbLQJLbt7Jj",
-    "content": "He who experiences the unity of life sees his own Self in all beings, and all beings in his own Self, and looks on everything with an impartial eye.",
+    "content": "I, too, do not envision a doctrine of self the clinging to which there would not arise sorrow, lamentation, pain, grief, and despair.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -8196,12 +8052,6 @@
     "tags": ["technology"]
   },
   {
-    "_id": "lwq03Qdk0cUN",
-    "content": "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "EMU3qvO-r3j",
     "content": "Silence is deep as Eternity; Speech is shallow as Time.",
     "author": "Thomas Carlyle",
@@ -8328,14 +8178,8 @@
     "tags": ["famous-quotes", "friendship"]
   },
   {
-    "_id": "Rg9qZuplwl-4",
-    "content": "Your work is to discover your world and then with all your heart give yourself to it.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "gwQJOur7lHXd",
-    "content": "Always be mindful of the kindness and not the faults of others.",
+    "content": "You should ignore that person’s impure behavior by way of speech and body, and focus on the fact that they get an openness and clarity of heart from time to time. That’s how to get rid of resentment for that person.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -8476,18 +8320,6 @@
     "content": "Action may not always bring happiness; but there is no happiness without action.",
     "author": "Benjamin Disraeli",
     "tags": ["famous-quotes"]
-  },
-  {
-    "_id": "EqnF-a7apagt",
-    "content": "In the sky, there is no distinction of east and west; people create distinctions out of their own minds and then believe them to be true.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
-    "_id": "DZA5UWkbv-KJ",
-    "content": "If we could see the miracle of a single flower clearly, our whole life would change.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "haornavUp0la",
@@ -9229,13 +9061,13 @@
   },
   {
     "_id": "2OVqy9KVYy3m",
-    "content": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.",
+    "content": "By oneself is evil done; by oneself is one defiled. By oneself is evil left undone; by oneself is one made pure.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
   {
     "_id": "LlHX1-JaSX4v",
-    "content": "However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?",
+    "content": "Much though he recites the sacred texts, but acts not accordingly, that heedless man is like a cowherd who only counts the cows of others",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -9379,7 +9211,7 @@
   },
   {
     "_id": "Rx5_LAiVmhoP",
-    "content": "Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind.",
+    "content": "Do not scorn what you have received, nor envy the gains of others. He who envies others does not obtain peace of mind.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -9738,14 +9570,8 @@
     "tags": ["famous-quotes"]
   },
   {
-    "_id": "gs5DaFumJTj",
-    "content": "Work out your own salvation. Do not depend on others.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
     "_id": "Juy6Vkv1y9V2",
-    "content": "The way is not in the sky. The way is in the heart.",
+    "content": "In the sky there are no tracks. Outside there is no recluse. There are no conditioned things that are eternal. There is no instability in the Buddhas.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -10090,18 +9916,6 @@
     "content": "One of the advantages of being disorderly is that one is constantly making exciting discoveries.",
     "author": "A. A. Milne",
     "tags": ["famous-quotes", "life"]
-  },
-  {
-    "_id": "zDV7RR6Y-wvZ",
-    "content": "In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
-    "_id": "2pgPc94F1wLa",
-    "content": "All that we are is the result of what we have thought. The mind is everything. What we think we become.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "Yk5zlxPAS_M7",
@@ -10849,19 +10663,13 @@
   },
   {
     "_id": "8IyWC1hl--Je",
-    "content": "You, yourself, as much as anybody in the entire universe, deserve your love and affection.",
+    "content": "One should not hurt others if one loves oneself.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
   {
     "_id": "U3JBbXpUnIoF",
-    "content": "A jug fills drop by drop.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
-  },
-  {
-    "_id": "yLb6zkeIx9zc",
-    "content": "Your body is precious. It is our vehicle for awakening. Treat it with care.",
+    "content": "Drop by drop is the water pot filled. Likewise, the wise man, gathering it little by little, fills himself with good.",
     "author": "Buddha",
     "tags": ["wisdom"]
   },
@@ -10996,12 +10804,6 @@
     "content": "In the middle of every difficulty lies opportunity.",
     "author": "Albert Einstein",
     "tags": ["famous-quotes", "inspirational"]
-  },
-  {
-    "_id": "fXCc-Adzx2i5",
-    "content": "The only real failure in life is not to be true to the best one knows.",
-    "author": "Buddha",
-    "tags": ["wisdom"]
   },
   {
     "_id": "qgRPI2mMJRZv",
