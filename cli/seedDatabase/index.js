@@ -10,7 +10,7 @@ try {
 
   await client.connect()
 
-  let results = {}
+  const results = {}
 
   for (const COLLECTION of collections) {
     const data = db[COLLECTION]

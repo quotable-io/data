@@ -2,14 +2,7 @@
 
 - [Content Guidelines](#content-guidelines)
 - [Issue Contributions](#issue-contributions)
-  - [Suggesting new quotes](#suggesting-new-quotes)
-  - [Remove Inappropriate Quotes](#remove-inappropriate-quotes)
-  - [Suggesting Changes](#suggesting-changes)
 - [Pull Requests](#pull-requests)
-  - [Setup](#setup)
-  - [Adding new content](#adding-new-content)
-  - [Editing Content](#editing-content)
-  - [Adding Tags to Existing Quotes](#adding-tags-to-existing-quotes)
 
 ## Content Guidelines
 
@@ -69,20 +62,19 @@ You can open to an issue to suggest changes to existing quotes. For example, to 
 
 ## Pull Requests
 
-If you would like to contribute directly, feel free to submit a pull request. 
+If you would like to contribute directly, feel free to submit a pull request. Please read the following documentation before submitting a PR. 
 ### Setup
 
 1. Fork and clone this repository. 
-2. Install dependencies
+2. Install dependencies 
 
-The repository includes the following CLI scripts for making changes to the data:
-These require Node >= 16. 
+The repository includes the following CLI scripts for managing the data files.  These require Node >= 18. Click on the link below to view documentation for each CLI script. 
 
-- [`addQuotes`](./cli/addQuotes/README.md)
-- [`addAuthors`](./cli/addAuthors/README.md)
-- [`addTags`](./cli/addTags/README.md)
-- [`validate`](./cli/validate/README.md)
-- [`build`](./cli/build/README.md)
+- [`cli/addQuotes`](./cli/addQuotes/README.md)
+- [`cli/addAuthors`](./cli/addAuthors/README.md)
+- [`cli/addTags`](./cli/addTags/README.md)
+- [`cli/validate`](./cli/validate/README.md)
+- [`cli/build`](./cli/build/README.md)
 
 ### Adding new content
 
@@ -90,25 +82,39 @@ These require Node >= 16.
 
 The `addQuotes` script is the primary mechanism for adding new content (quotes, authors, and tags). It takes an array of quotes from an input file, checks it against the existing collection to filter out duplicates, then adds the new quotes to `quotes.json` collection. It also checks for any authors and tags that do not already exist, creates the necessary objects and adds them to their respective collections. It uses the wiki API to get `Author` details like `bio`, `description`, `link` etc.
 
-See [`cli/addQuotes`](./cli/addQuotes/README.md) for details.
+**Refer to [`cli/addQuotes`](./cli/addQuotes/README.md) for detailed instructions**
 
-After adding your new quotes, open a pull request. 
-
-```SHELL
-❯ node cli/addQuotes input/quotes.json
+1. create a JSON file (`input/quotes.json`) containing an array of quotes to add.
+2. Run the following command to add the quotes from the input file 
+```sh
+node cli/addQuotes -v
 ```
+3. Run data validation to check the data files for any errors.  If any errors are found, this script will provide detailed output including the location of the errors and what needs to be fixed. 
+```sh 
+node cli/validate -v
+```
+4. Open a pull request to submit your changes. 
+
 ### Editing Content
 
-To edit existing quotes for spelling, grammar, and accuracy, you can edit the JSON files directlyBelow is the list of properties that can be manually edited. 
+To edit existing quotes for spelling, grammar, and accuracy, you can edit the JSON files directly. Below is the list of the files and properties that can be edited.  **Other properties should not be changed manually**. 
 
-- `data/quotes.json`
-  - content
-  - tags
-- `data/authors.json`
-  - bio
-  - description
+- `data/quotes.json/`
+  - `Quote.content`
+  - `Quote.tags`
+  - `Quote.author` *(see below)
+- `data/authors.json/`
+  - `Author.bio`
+  - `Author.description`
 
-After making changes, submit a pull request
+\* If a quote is attributed to the wrong author, you _can_ manually change the `author` property. However, the new value **must be the exact name of an existing author** in the `data/authors.json` collection.  If the correct author is not already in the database, you can remove existing quote, and then use the addQuotes script to add it with the correct author name (this will automatically create the Author object and add it to the authors collection). 
+
+After making changes, you can run the following command to check the data files for validation errors. 
+
+```sh
+node cli/validate -v
+```
+When you finish making changes, submit a pull request
 
 ### Adding Tags to Existing Quotes 
 
