@@ -2640,13 +2640,6 @@
     "description": "German-born diarist"
   },
   {
-    "_id": "sUNjshHENA05",
-    "name": "Buddha",
-    "link": "https://en.wikipedia.org/wiki/Gautama_Buddha",
-    "bio": "The Buddha, was a philosopher, mendicant, meditator, and spiritual teacher who lived in ancient India. The world religion of Buddhism was founded by the efforts of him and his followers. He taught for around forty years and built a large following, both monastic and lay.",
-    "description": "Founder of Buddhism"
-  },
-  {
     "_id": "D1RNG5b9TsXN",
     "name": "Dale Carnegie",
     "link": "https://en.wikipedia.org/wiki/Dale_Carnegie",
@@ -5616,5 +5609,12 @@
     "bio": "Kyle Martin Chandler (born September 17, 1965) is an American actor. Making his screen acting debut in a 1988 television film, Quiet Victory: The Charlie Wedemeyer Story, Chandler's first regular television role was in the ABC drama Homefront (1991–93). This was followed by the lead role of Gary Hobson in the CBS series Early Edition (1996–2000), for which he won a Saturn Award for Best Actor on Television.",
     "description": "American actor",
     "link": "https://en.wikipedia.org/wiki/Kyle_Chandler"
+  },
+  {
+    "_id": "bKQiIqr83",
+    "name": "The Buddha",
+    "bio": "The Buddha, was a philosopher, mendicant, meditator, and spiritual teacher who lived in ancient India. The world religion of Buddhism was founded by the efforts of him and his followers. He taught for around forty years and built a large following, both monastic and lay.",
+    "description": "Siddhartha Gautama, founder of Buddhism",
+    "link": "https://en.wikipedia.org/wiki/The_Buddha"
   }
 ]
