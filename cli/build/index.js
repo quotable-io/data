@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist'
+import shortid from 'shortid'
 import * as path from 'path'
 import shell from 'shelljs'
 import moment from 'moment'
@@ -75,6 +76,7 @@ run(async () => {
 
   const info = [
     {
+      _id: shortid(),
       version: pkg.version,
       count: {
         quotes: db.quotes.length,
