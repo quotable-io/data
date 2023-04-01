@@ -4,13 +4,21 @@ import { parseDataFiles } from '../../lib/parseDataFiles.js'
 import { dataDir } from '../../config.js'
 import { client, testConnection } from './db.js'
 import { log } from '../../lib/log.js'
+import { help } from './help.js'
 
 const args = minimist(process.argv.slice(2))
 const VERBOSE = args.v || args.verbose
+const HELP = args.h || args.help
 
 function toObjectMap(arr) {
   return arr.reduce((obj, item) => ({ ...obj, [item._id]: item }), {})
 }
+
+if (HELP) {
+  help()
+  process.exit(0)
+}
+
 // An object to store the documents that will be inserted, updated, deleted
 // in each collection
 const allChanges = {}

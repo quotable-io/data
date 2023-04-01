@@ -4,7 +4,7 @@
 
 This repository contains the data for the quotable API. All changes to the database are made in this repository and then synced to the MongoDB database. It was set up this way to allow community contributions to the data.  
 
-# Contributing 
+## Contributing 
 
 If you are interesting in contributing to the Quotable database, please check out the [contributors guide](CONTRIBUTING.md).
 
@@ -23,3 +23,4 @@ If you are interesting in contributing to the Quotable database, please check ou
 - [`addTags`](./cli/addTags/README.md)
 - [`validate`](./cli/validate/README.md)
 - [`build`](./cli/build/README.md)
+- [`sync`](./cli/sync/README.md)
