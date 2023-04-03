@@ -1,6 +1,6 @@
 {
   "name": "quotable-data",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "The source data for the quotable API",
   "type": "module",
   "scripts": {

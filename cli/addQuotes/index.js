@@ -4,7 +4,7 @@ import * as path from 'path'
 
 import minimist from 'minimist'
 import shell from 'shelljs'
-import { uniq, uniqBy, kebabCase, remove, flatMap } from 'lodash-es'
+import { uniq, uniqBy, kebabCase, remove, flatMap, isEmpty } from 'lodash-es'
 import shortid from 'shortid'
 import slugify from '@lukepeavey/slugify'
 import { createProgressBar } from '../../lib/progressBar.js'
@@ -83,8 +83,11 @@ async function getAuthorWikis(input) {
         options: wikiResults,
       })
     }
-    if (authorWiki) {
+    if (!isEmpty(authorWiki)) {
       authors[inputName] = authorWiki
+    } else {
+      log.warn(`Could not a matching wikipedia page for author: ${inputName}`)
+      log.warn(`Quotes by this author will not be imported`)
     }
   }
   return authors
@@ -113,8 +116,10 @@ async function processInputData(rawInputData, db) {
   // 1. Map each author found in the input data to a wikipedia page. We use
   // data from the wiki API to create author new author objects. We also use
   const authorWikis = await getAuthorWikis(input, db)
+
   // 2. Create the array of authors that will be added to the collection.
   documents.authors = uniqBy(values(authorWikis), author => author.name)
+    .filter(author => !isEmpty(author))
     // Filter out authors that are already in the collection
     .filter(author => db.authors.every(({ link }) => link !== author.link))
     // Create `Author` objects using data from the wiki API
@@ -133,6 +138,11 @@ async function processInputData(rawInputData, db) {
   skipped.duplicate = remove(input, ({ content }) =>
     findQuoteByContent(content, db)
   )
+
+  skipped.invalidAuthor = remove(input, ({ author }) => {
+    return isEmpty(authorWikis[author])
+  })
+
   // 2. Remove any quotes by authors that do not have a wikipedia page
   skipped.invalidAuthor = remove(input, ({ author }) => !authorWikis[author])
   // 3. Create the array of new quotes that will be added to the collection.
@@ -148,9 +158,11 @@ async function processInputData(rawInputData, db) {
   // ==============================================================
   // 1. Get an array of all uniq tag names found in the input data
   const allTags = uniq(flatMap(input, quote => quote.tags))
+
   // 2. Create an array of **new** tags that will be added to the `tags`
   // collection
   documents.tags = allTags
+    .filter(tagName => !isEmpty(tagName))
     // Filter out tags that already exist
     .filter(tagName => db.tags.every(({ name }) => name !== slugify(tagName)))
     // Create a `Tag` object. Currently this just has an id and name.
