@@ -77,7 +77,7 @@ run(async () => {
   const info = [
     {
       _id: shortid(),
-      version: pkg.version,
+      databaseVersion: pkg.version,
       count: {
         quotes: data.quotes.length,
         authors: data.authors.length,
