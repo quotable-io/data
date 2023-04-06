@@ -79,9 +79,9 @@ run(async () => {
       _id: shortid(),
       version: pkg.version,
       count: {
-        quotes: db.quotes.length,
-        authors: db.authors.length,
-        tags: db.tags.length,
+        quotes: data.quotes.length,
+        authors: data.authors.length,
+        tags: data.tags.length,
       },
     },
   ]
