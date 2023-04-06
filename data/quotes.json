@@ -12508,5 +12508,125 @@
     "author": "Aesop",
     "content": "Beware lest you lose the substance by grasping at the shadow.",
     "tags": ["wisdom", "philosophy"]
+  },
+  {
+    "_id": "dCBRnkMsW",
+    "author": "Albert Einstein",
+    "content": "Before God we are all equally wise - and equally foolish.",
+    "tags": ["religion"]
+  },
+  {
+    "_id": "xWusiklxiy",
+    "author": "Albert Einstein",
+    "content": "Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.",
+    "tags": ["mathematics", "education", "science"]
+  },
+  {
+    "_id": "8Oj6iwQ1xp",
+    "author": "Albert Einstein",
+    "content": "Ethical axioms are found and tested not very differently from the axioms of science. Truth is what stands the test of experience.",
+    "tags": ["education", "science", "ethics"]
+  },
+  {
+    "_id": "aQSSYBocy9",
+    "author": "Albert Einstein",
+    "content": "Every day I remind myself that my inner and outer life are based on the labors of other men, living and dead, and that I must exert myself in order to give in the same measure as I have received and am still receiving.",
+    "tags": ["history", "science"]
+  },
+  {
+    "_id": "EG9yQpz6Ku",
+    "author": "Albert Einstein",
+    "content": "Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.",
+    "tags": ["society"]
+  },
+  {
+    "_id": "fC5Jr2NsYm",
+    "author": "Albert Einstein",
+    "content": "Gravitation cannot be held responsible for people falling in love. How on earth can you explain in terms of chemistry and physics so important a biological phenomenon as first love? Put your hand on a stove for a minute and it seems like an hour. Sit with that special girl for an hour and it seems like a minute. That's relativity.",
+    "tags": ["love", "science"]
+  },
+  {
+    "_id": "mqbH2SBrIS",
+    "author": "Albert Einstein",
+    "content": "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.",
+    "tags": ["history", "war"]
+  },
+  {
+    "_id": "2ts3DrACVY",
+    "author": "Albert Einstein",
+    "content": "I never teach my pupils. I only attempt to provide the conditions in which they can learn.",
+    "tags": ["education", "science"]
+  },
+  {
+    "_id": "cOuSBYiscf",
+    "author": "Albert Einstein",
+    "content": "I never think of the future - it comes soon enough.",
+    "tags": ["future"]
+  },
+  {
+    "_id": "8WhYatXQzF",
+    "author": "Albert Einstein",
+    "content": "If I had only known, I would have been a locksmith.",
+    "tags": ["humorous"]
+  },
+  {
+    "_id": "inED6huctY",
+    "author": "Albert Einstein",
+    "content": "If you are out to describe the truth, leave elegance to the tailor.",
+    "tags": ["truth"]
+  },
+  {
+    "_id": "ostJK0TXUf",
+    "author": "Albert Einstein",
+    "content": "Imagination is more important than knowledge...",
+    "tags": ["imagination", "knowledge"]
+  },
+  {
+    "_id": "vbvqg3V6j8",
+    "author": "Albert Einstein",
+    "content": "It is a miracle that curiosity survives formal education.",
+    "tags": ["education"]
+  },
+  {
+    "_id": "4FLFmHaK7-",
+    "author": "Albert Einstein",
+    "content": "It is the supreme art of the teacher to awaken joy in creative expression and knowledge.",
+    "tags": ["knowledge", "education"]
+  },
+  {
+    "_id": "iCcQwfTUU3",
+    "author": "Albert Einstein",
+    "content": "Laws alone can not secure freedom of expression; in order that every man present his views without penalty there must be spirit of tolerance in the entire population.",
+    "tags": ["freedom", "tolerance"]
+  },
+  {
+    "_id": "Y1Zo7z8BPJ",
+    "author": "Albert Einstein",
+    "content": "My religion consists of a humble admiration of the illimitable superior spirit who reveals himself in the slight details we are able to perceive with our frail and feeble mind.",
+    "tags": ["religion"]
+  },
+  {
+    "_id": "mg8F-nsmPEj",
+    "author": "Albert Einstein",
+    "content": "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.",
+    "tags": ["stupidity"]
+  },
+  {
+    "_id": "2qpi1ZKL9Ko",
+    "author": "Albert Einstein",
+    "content": "Perfection of means and confusion of ends seems to characterize our age.",
+    "tags": ["humorous"]
+  },
+  {
+    "_id": "b437W9Z_RN_",
+    "author": "Albert Einstein",
+    "content": "Reading, after a certain age, diverts the mind too much from its creative pursuits. Any man who reads too much and uses his own brain too little falls into lazy habits of thinking.",
+    "tags": ["education"]
+  },
+  {
+    "_id": "wFrlCzqagir",
+    "author": "Albert Einstein",
+    "content": "The ideals which have lighted my way, and time after time have given me new courage to face life cheerfully, have been Kindness, Beauty, and Truth. The trite subjects of human efforts, possessions, outward success, luxury have always seemed to me contemptible.",
+    "tags": ["success"]
   }
 ]
