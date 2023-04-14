@@ -11,6 +11,7 @@ import { createProgressBar } from '../../lib/progressBar.js'
 import { dataDir } from '../../config.js'
 import { entries, values } from '../../lib/object.js'
 import { findQuoteByContent } from '../../lib/findQuoteByContent.js'
+import { titleCase } from '../../lib/titleCase.js'
 import { log } from '../../lib/log.js'
 import { logResults } from './logResults.js'
 import { parseContent } from '../../lib/parseContent.js'
@@ -166,7 +167,11 @@ async function processInputData(rawInputData, db) {
     // Filter out tags that already exist
     .filter(tagName => db.tags.every(({ name }) => name !== slugify(tagName)))
     // Create a `Tag` object. Currently this just has an id and name.
-    .map(tagName => ({ _id: shortid(), name: tagName }))
+    .map(tagName => {
+      const name = titleCase(tagName)
+      const slug = kebabCase(tagName)
+      return { _id: shortid(), name, slug }
+    })
 
   return { added: documents, skipped }
 }

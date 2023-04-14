@@ -4,7 +4,7 @@ export const properties = {
   _id: types.id,
   content: types.nonEmptyString,
   author: types.nonEmptyString,
-  tags: { type: 'array', items: types.slug },
+  tags: { type: 'array', items: types.title },
 }
 
 export const computedProperties = {

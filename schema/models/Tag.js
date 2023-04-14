@@ -2,7 +2,7 @@ import { types } from '../types.js'
 
 export const properties = {
   _id: types.id,
-  name: types.slug,
+  name: types.title,
 }
 
 export const computedProperties = {
