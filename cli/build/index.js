@@ -76,7 +76,7 @@ run(async () => {
 
   const info = [
     {
-      _id: shortid(),
+      _id: db.info && db.info[0] ? db.info[0]._id : shortid(),
       databaseVersion: pkg.version,
       count: {
         quotes: data.quotes.length,
