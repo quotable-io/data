@@ -56,5 +56,14 @@
   { "_id": "i_OFrgCiQ4", "name": "generosity" },
   { "_id": "S9OYJZlyu5", "name": "gratitude" },
   { "_id": "PIyOMHYqPd", "name": "age" },
-  { "_id": "dm15bka7Qc", "name": "sadness" }
+  { "_id": "dm15bka7Qc", "name": "sadness" },
+  { "_id": "pnLPcXTs_S", "name": "Opportunity", "slug": "opportunity" },
+  { "_id": "Y3mg6WH7Qv1", "name": "Work", "slug": "work" },
+  { "_id": "gElqvJIRz0h", "name": "Failure", "slug": "failure" },
+  { "_id": "GaQEsvfbYYd", "name": "Perseverance", "slug": "perseverance" },
+  { "_id": "kv9zk8WIqaq", "name": "Health", "slug": "health" },
+  { "_id": "5j5s-YkHAr_", "name": "Wellness", "slug": "wellness" },
+  { "_id": "aLWQOIYpeMz", "name": "Creativity", "slug": "creativity" },
+  { "_id": "NLC25zc7-m5", "name": "Work", "slug": "work" },
+  { "_id": "L09SJrfjY8s", "name": "Genius", "slug": "genius" }
 ]
