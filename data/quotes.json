@@ -10947,7 +10947,7 @@
     "_id": "J1amO36TwbX8",
     "content": "You can't blame gravity for falling in love.",
     "author": "Albert Einstein",
-    "tags": ["famous-quotes", "humor"]
+    "tags": ["famous-quotes", "humorous"]
   },
   {
     "_id": "_XB2MKPzW7dA",
@@ -11127,7 +11127,7 @@
     "_id": "-gl-mVVo7R",
     "author": "Winston Churchill",
     "content": "The best argument against democracy is a five-minute conversation with the average voter.",
-    "tags": ["humor", "politics"]
+    "tags": ["humorous", "politics"]
   },
   {
     "_id": "ueNZohx2Vo",
@@ -11145,7 +11145,7 @@
     "_id": "bwLNaDverO",
     "author": "Winston Churchill",
     "content": "I am fond of pigs. Dogs look up to us. Cats look down on us. Pigs treat us as equals.",
-    "tags": ["humor", "famous-quotes"]
+    "tags": ["humorous", "famous-quotes"]
   },
   {
     "_id": "aMbVRktKAJ",
@@ -11157,7 +11157,7 @@
     "_id": "UfqGrLbrPp",
     "author": "Winston Churchill",
     "content": "You can always count on Americans to do the right thing - after they've tried everything else.",
-    "tags": ["humor", "politics"]
+    "tags": ["humorous", "politics"]
   },
   {
     "_id": "4q4z3dyDhu",
@@ -11205,7 +11205,7 @@
     "_id": "frhBB_xz6er",
     "author": "Winston Churchill",
     "content": "An appeaser is one who feeds a crocodile, hoping it will eat him last.",
-    "tags": ["humor"]
+    "tags": ["humorous"]
   },
   {
     "_id": "u2JiNBARfaw",
@@ -11247,7 +11247,7 @@
     "_id": "O6hRD-ilnV8",
     "author": "Winston Churchill",
     "content": "I am always ready to learn although I do not always like being taught.",
-    "tags": ["humor"]
+    "tags": ["humorous"]
   },
   {
     "_id": "fKsykJ99k",
@@ -11313,7 +11313,7 @@
     "_id": "nr2GQYc-Hg",
     "author": "Abraham Lincoln",
     "content": "If I were two-faced, would I be wearing this one?",
-    "tags": ["humor"]
+    "tags": ["humorous"]
   },
   {
     "_id": "HncS4FKWNy",
@@ -11451,13 +11451,13 @@
     "_id": "s2aFAaJuV3",
     "author": "Alan Watts",
     "content": "I owe my solitude to other people.",
-    "tags": ["humor"]
+    "tags": ["humorous"]
   },
   {
     "_id": "0UycoCApLT",
     "author": "Alan Watts",
     "content": "Trying to define yourself is like trying to bite your own teeth.",
-    "tags": ["humor"]
+    "tags": ["humorous"]
   },
   {
     "_id": "_FwZIOj_Tev",
@@ -12628,5 +12628,47 @@
     "author": "Albert Einstein",
     "content": "The ideals which have lighted my way, and time after time have given me new courage to face life cheerfully, have been Kindness, Beauty, and Truth. The trite subjects of human efforts, possessions, outward success, luxury have always seemed to me contemptible.",
     "tags": ["success"]
+  },
+  {
+    "_id": "RTYhCs5Ka",
+    "author": "Charles Dickens",
+    "content": "I do not know the American gentleman, god forgive me for putting two such words together.",
+    "tags": ["humorous"]
+  },
+  {
+    "_id": "_EC8bhSDQa",
+    "author": "Charles Dickens",
+    "content": "Minds, like bodies, will often fall into a pimpled, ill-conditioned state from mere excess of comfort.",
+    "tags": ["weakness"]
+  },
+  {
+    "_id": "as0ElEk5g7",
+    "author": "Charles Dickens",
+    "content": "No one is useless in this world who lightens the burdens of another.",
+    "tags": ["generosity"]
+  },
+  {
+    "_id": "R1DmP1kYtW",
+    "author": "Charles Dickens",
+    "content": "Reflect on your present blessings, of which every man has many; not on your past misfortunes, of which all men have some.",
+    "tags": ["gratitude"]
+  },
+  {
+    "_id": "qF9iB6wrCQ",
+    "author": "Charles Dickens",
+    "content": "Subdue your appetites, my dears, and you've conquered human nature.",
+    "tags": []
+  },
+  {
+    "_id": "j7W6pP1XiG",
+    "author": "Charles Dickens",
+    "content": "Train up a fig tree in the way it should go, and when you are old sit under the shade of it.",
+    "tags": ["age", "wisdom"]
+  },
+  {
+    "_id": "RKl9iZrjfP",
+    "author": "Charles Dickens",
+    "content": "We need never be ashamed of our tears.",
+    "tags": ["sadness"]
   }
 ]
